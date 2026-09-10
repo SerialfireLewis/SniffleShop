@@ -247,7 +247,7 @@
         "version": "1.22.2",
         "date": "2025-11-20T03:12:17Z",
         "downloadURL": "https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/RetroArch.ipa",
-        "size": 472100864,
+        "size": 461036714,
         "minOSVersion": "12.0",
         "localizedDescription": "Current stable Libretro iOS sideload build, published from RetroArch 1.22.2. This is the official buildbot IPA, not a third-party mirror."
       }]
