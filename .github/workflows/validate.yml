@@ -30,7 +30,7 @@ jobs:
         run: python3 scripts/validate_source.py source.json
 
   links:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
