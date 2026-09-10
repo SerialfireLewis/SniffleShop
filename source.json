@@ -4,7 +4,7 @@
   "sourceURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json",
   "subtitle": "Curated sideloading tools, emulators, utilities, and open-source iOS apps",
   "description": "A curated SideStore/AltStore source built from official developer releases and official project-hosted IPA downloads. No random IPA mirrors, no placeholder apps.",
-  "iconURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/sniffleshop-logo.png",
+  "iconURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/SniffleShop-logo.PNG",
   "website": "https://github.com/SerialfireLewis/SniffleShop",
   "tintColor": "#8B5CF6",
   "nsfw": false,
