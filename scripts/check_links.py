@@ -14,6 +14,18 @@ from pathlib import Path
 
 def collect_urls(source: dict) -> list[tuple[str, str, int | None]]:
     urls: list[tuple[str, str, int | None]] = []
+
+    # Verify SniffleShop itself is publicly reachable, not just the apps it lists.
+    for key, label in (
+        ("sourceURL", "source JSON"),
+        ("website", "source website"),
+        ("iconURL", "source icon"),
+        ("headerURL", "source header"),
+    ):
+        value = source.get(key)
+        if value:
+            urls.append((label, value, None))
+
     for app in source.get("apps", []):
         name = app.get("name", "<unknown>")
         if app.get("iconURL"):
@@ -51,7 +63,7 @@ def response_size(headers) -> int | None:
 
 
 def check(url: str, timeout: float) -> tuple[int, str, int | None]:
-    headers = {"User-Agent": "SniffleShop-link-check/2.0", "Accept": "*/*"}
+    headers = {"User-Agent": "SniffleShop-link-check/2.1", "Accept": "*/*"}
     try:
         req = urllib.request.Request(url, headers=headers, method="HEAD")
         with urllib.request.urlopen(req, timeout=timeout) as response:
