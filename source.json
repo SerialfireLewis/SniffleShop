@@ -1,0 +1,210 @@
+{
+  "name": "SniffleShop",
+  "identifier": "com.serialfirelewis.sniffleshop",
+  "sourceURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json",
+  "apps": [
+    {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "LiveContainer Team",
+      "subtitle": "Run sideloaded apps inside a container",
+      "localizedDescription": "LiveContainer launches iOS apps without installing each one as a separate signed app. It supports multiple guest apps, app management, multitasking features, tweaks, and JIT/JIT-less workflows. The standalone IPA listed here is the build intended to be installed through SideStore 0.6.2 or newer.",
+      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
+      "tintColor": "#0784FC",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/1.png"
+      ],
+      "versions": [
+        {
+          "version": "3.8.0",
+          "date": "2026-07-17T07:44:20Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+          "size": 4707271,
+          "minOSVersion": "15.0",
+          "localizedDescription": "Adds storage management, multiple-LiveContainer launch priority, share-sheet app opening, StosDebug JIT support, multitasking improvements, and compatibility fixes."
+        }
+      ]
+    },
+    {
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "Samara",
+      "subtitle": "On-device signing and app management",
+      "localizedDescription": "Feather is a free, open-source on-device iOS application manager and signer. It can manage IPA libraries and sources, configure signing options and tweaks, and install signed apps on stock iOS.",
+      "iconURL": "https://raw.githubusercontent.com/claration/Feather/v1.x/iOS/Resources/Icons/Main/Mac@3x.png",
+      "tintColor": "#848EF9",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Library.png",
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Repos.png",
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Sign.png",
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Store.png"
+      ],
+      "versions": [
+        {
+          "version": "2.9.0",
+          "date": "2026-07-05T02:11:53Z",
+          "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
+          "size": 14241853,
+          "localizedDescription": "Adds tweak options to default signing settings, identifier search in the library, and fixes file enumeration, credit links, and duplicate recommended repositories."
+        }
+      ]
+    },
+    {
+      "name": "StikDebug",
+      "bundleIdentifier": "com.stik.stikdebug",
+      "developerName": "StikDebug Team",
+      "subtitle": "On-device debugger and JIT enabler",
+      "localizedDescription": "StikDebug is an on-device debugger and JIT enabler for iOS 17.4 and newer. It can enable JIT for compatible sideloaded apps, launch apps, inspect live console output and processes, run scripts, inspect app expiry, and simulate device location.",
+      "iconURL": "https://raw.githubusercontent.com/StikDebug/StikDebug/main/assets/StikDebug.png",
+      "tintColor": "#00BFFF",
+      "versions": [
+        {
+          "version": "3.1.10",
+          "date": "2026-08-27T04:07:04Z",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
+          "size": 12824047,
+          "minOSVersion": "17.4",
+          "localizedDescription": "Current 3.1.10 release of StikDebug from the official project."
+        }
+      ]
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS with JIT",
+      "localizedDescription": "UTM is a full-featured virtual machine host for iPhone and iPad built on QEMU. It can emulate many processor architectures and run operating systems including Linux and Windows. This non-SE build uses JIT for substantially faster emulation.",
+      "iconURL": "https://alt.getutm.app/icon.png",
+      "tintColor": "#1A2CC2",
+      "screenshotURLs": [
+        "https://alt.getutm.app/screen0.png",
+        "https://alt.getutm.app/screen1.png",
+        "https://alt.getutm.app/screen2.png",
+        "https://alt.getutm.app/screen3.png",
+        "https://alt.getutm.app/screen4.png",
+        "https://alt.getutm.app/screen5.png",
+        "https://alt.getutm.app/screen6.png"
+      ],
+      "versions": [
+        {
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+          "size": 130058389,
+          "minOSVersion": "14.0",
+          "localizedDescription": "QEMU 10.0.2-based release with OS 26 design updates, App Intents, custom keyboard shortcuts, an improved VM wizard, and stability fixes. This is the non-jailbroken sideloading IPA."
+        }
+      ]
+    },
+    {
+      "name": "iSH",
+      "bundleIdentifier": "app.ish.iSH",
+      "developerName": "Theodore Dubois and contributors",
+      "subtitle": "A local Linux shell for iOS",
+      "localizedDescription": "iSH provides a Linux shell environment locally on iOS using user-mode x86 emulation and Linux syscall translation. It includes a terminal and an Alpine-based userspace, making it useful for shell tools, scripting, package work, and development.",
+      "iconURL": "https://ish.app/assets/icon-full.png",
+      "tintColor": "#000000",
+      "screenshotURLs": [
+        "https://ish.app/assets/front-iphone-full.png"
+      ],
+      "versions": [
+        {
+          "version": "1.3.2",
+          "date": "2023-05-20T23:52:42Z",
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+          "size": 4232682,
+          "minOSVersion": "11.0",
+          "localizedDescription": "Latest stable GitHub release. Includes file-provider diagnostics fixes and the 1.3.x Linux-shell feature set. Newer automated prerelease builds exist upstream, but SniffleShop tracks the stable release here."
+        }
+      ]
+    },
+    {
+      "name": "Angel Aura Amethyst",
+      "bundleIdentifier": "org.angelauramc.amethyst",
+      "developerName": "AngelAuraMC",
+      "subtitle": "Minecraft Java Edition launcher for iOS",
+      "localizedDescription": "Angel Aura Amethyst is the active successor to PojavLauncher for running Minecraft: Java Edition on iOS. It supports many Minecraft versions, mods, resource packs, compatible shaders, multiple instances, custom touch controls, controllers, keyboard and mouse, and Java Edition servers. JIT is required.",
+      "iconURL": "https://raw.githubusercontent.com/AngelAuraMC/Amethyst-iOS/main/Natives/Assets.xcassets/AppIcon-Light.appiconset/1024x1024.png",
+      "tintColor": "#9649B8",
+      "beta": true,
+      "permissions": [
+        {
+          "type": "microphone",
+          "usageDescription": "Used by compatible voice-chat mods when they request microphone access."
+        },
+        {
+          "type": "network",
+          "usageDescription": "Used for network play, LAN discovery, and supported JIT/sideload integrations."
+        }
+      ],
+      "screenshotURLs": [
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG",
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG",
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG",
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG"
+      ],
+      "versions": [
+        {
+          "version": "1.0.9212a18",
+          "date": "2026-08-10T13:21:40.589103+00:00",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/9212a18/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 191478253,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Current Amethyst test build published by the official AngelAuraMC source, commit 9212a18."
+        }
+      ]
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "com.provenance-emu.provenance",
+      "developerName": "Provenance-EMU",
+      "subtitle": "Multi-system retro emulator for iOS",
+      "localizedDescription": "Provenance is an open-source multi-system emulator for iOS and tvOS supporting dozens of classic systems, including Nintendo, Sega, PlayStation and handheld platforms. It includes controller support, save states, RetroAchievements, artwork and library management, and cloud-sync features.",
+      "iconURL": "https://raw.githubusercontent.com/Provenance-Emu/Provenance/develop/Provenance/Resources/Assets.xcassets/AppIcon.appiconset/iTunesArtwork%402x.png",
+      "tintColor": "#8A2BE2",
+      "permissions": [
+        {
+          "type": "network",
+          "usageDescription": "Used to discover and connect to local network game servers for netplay."
+        },
+        {
+          "type": "camera",
+          "usageDescription": "Used when scanning QR codes for supported game-data import flows."
+        }
+      ],
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+          "size": 1076407494,
+          "localizedDescription": "Stable 3.3.0 release with expanded iCloud/CloudKit sync, a redesigned tvOS interface, video filters and shaders, controller/core fixes, and broad stability improvements."
+        }
+      ]
+    },
+    {
+      "name": "Flycast",
+      "bundleIdentifier": "com.flyinghead.Flycast",
+      "developerName": "Flyinghead",
+      "subtitle": "Dreamcast, Naomi and Atomiswave emulator",
+      "localizedDescription": "Flycast is an open-source emulator for Sega Dreamcast, Naomi, Naomi 2 and Atomiswave hardware. The iOS IPA is published directly by the Flycast project.",
+      "iconURL": "https://github.com/flyinghead/flycast/raw/master/shell/linux/flycast.png",
+      "tintColor": "#9B54FD",
+      "screenshotURLs": [
+        "https://github.com/flyinghead/flycast/raw/master/shell/imgs/screenshot1.png",
+        "https://github.com/flyinghead/flycast/raw/master/shell/imgs/screenshot2.png",
+        "https://github.com/flyinghead/flycast/raw/master/shell/imgs/screenshot3.png"
+      ],
+      "versions": [
+        {
+          "version": "v2.5",
+          "date": "2025-05-07T11:36:00+02:00",
+          "downloadURL": "https://github.com/flyinghead/flycast/releases/download/v2.5/Flycast-2.5.ipa",
+          "size": 8161611,
+          "localizedDescription": "Flycast 2.5 adds DCNet support and a new on-screen gamepad."
+        }
+      ]
+    }
+  ],
+  "news": []
+}
