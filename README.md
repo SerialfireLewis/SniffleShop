@@ -12,13 +12,11 @@ https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json
 
 In SideStore, open **Sources**, tap **+ / Add Source**, paste the URL, and add **SniffleShop**.
 
-You can also use SideStore's source URL scheme once the repository is public:
+You can also use SideStore's source URL scheme:
 
 ```text
 sidestore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2FSerialfireLewis%2FSniffleShop%2Fmain%2Fsource.json
 ```
-
-> **Important:** the repository must be public for `raw.githubusercontent.com` to serve `source.json` to SideStore without GitHub authentication.
 
 ## Catalog
 
@@ -33,7 +31,7 @@ Current tracked apps:
 - **iTorrent** — open-source native torrent client with Files integration and background transfers.
 - **Angel Aura Amethyst** — actively maintained Minecraft: Java Edition launcher for iOS; requires JIT.
 - **Provenance** — multi-system retro emulator.
-- **Flycast** — Dreamcast, Naomi, Naomi 2, and Atomiswave emulator.
+- **RetroArch** — multi-system emulation frontend using Libretro cores; official stable sideload IPA.
 
 Downloads are intentionally limited to official developer GitHub release assets or official project-hosted IPA URLs. SniffleShop does not mirror IPAs.
 
@@ -49,6 +47,7 @@ SideStore is compatible with AltStore Sources. SniffleShop uses current AltSourc
 - **UTM** is the non-SE JIT build and needs JIT for fast emulation.
 - **Yattee 2.0 build 270** requires iOS 18 or newer.
 - **iTorrent 2.2.0** requires iOS 16 or newer.
+- **RetroArch** can use JIT/dynamic recompilation for supported cores when JIT is available.
 
 ## Repository layout
 
@@ -59,7 +58,7 @@ UPSTREAMS.md                 Release provenance and maintenance notes
 scripts/validate_source.py   Current AltSource/SideStore metadata validator
 scripts/check_links.py       External icon/screenshot/IPA reachability checker
 .github/workflows/validate.yml
-                             CI validation + scheduled link checks
+                             CI validation + link checks on updates and weekly
 ```
 
 ## Validate locally
