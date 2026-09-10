@@ -15,7 +15,7 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. Rele
 | iTorrent | 2.2.0 build 1 | https://github.com/XITRIX/iTorrent/releases | Official GitHub IPA; project documentation explicitly supports SideStore/AltStore sideloading. |
 | Angel Aura Amethyst | 1.0.9212a18 | https://alt.crystall1ne.dev | Current official AngelAuraMC build/source; active successor to PojavLauncher. |
 | Provenance | 3.3.0 | https://provenance-emu.com/apps.json | Tracks the current stable release from the official source. |
-| Flycast | v2.5 | https://flyinghead.github.io/flycast-builds/altstore.json | Upstream Flycast has v2.7, but its official iOS AltSource still publishes v2.5 as the sideloadable IPA, so SniffleShop does not invent a v2.7 IPA. |
+| RetroArch | 1.22.2 | https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/ | Official Libretro stable iOS sideload IPA; current upstream release is 1.22.2. |
 
 ## Deliberate exclusions
 
@@ -24,6 +24,8 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. Rele
 **Jitterbug/Jitterbug Lite** is not included. The upstream repository is archived and its latest release is from 2022; StikDebug is the actively maintained JIT tool tracked here.
 
 **DolphiniOS** was not added even though an official current prerelease IPA exists, because its non-jailbroken project configuration uses a replace-at-build organization identifier rather than one fixed bundle identifier. SniffleShop will not guess a bundle ID.
+
+**Flycast** is not currently included. Its official iOS AltSource still advertises v2.5, but that AltSource's IPA URL now returns 404 and the upstream GitHub v2.5 release no longer contains an iOS IPA asset.
 
 ## Metadata rules
 
