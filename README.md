@@ -32,6 +32,15 @@ Current tracked apps:
 - **Angel Aura Amethyst** — actively maintained Minecraft: Java Edition launcher for iOS; requires JIT.
 - **Provenance** — multi-system retro emulator.
 - **RetroArch** — multi-system emulation frontend using Libretro cores; official stable sideload IPA.
+- **osu!** — official open-source osu! lazer iOS build for rhythm-game play.
+- **Aidoku** — open-source manga reader with external sources, downloads, OCR support, and reader customization.
+- **NOOP** — open-source offline companion for supported WHOOP straps.
+- **Nyora** — native open-source manga and comics reader.
+- **Stremio** — extensible media center using the official iOS sideload IPA.
+- **Sable** — native open-source Matrix client.
+- **PPSSPP** — fast, configurable PlayStation Portable emulator with save states, speed controls, and controller support.
+- **Delta** — Nintendo-focused multi-system emulator with save states, cheats, skins, fast-forward, and controller support.
+- **MAME4iOS** — arcade emulator with deterministic input recording/playback and single-step support for TAS-style work.
 
 Downloads are intentionally limited to official developer GitHub release assets or official project-hosted IPA URLs. SniffleShop does not mirror IPAs.
 
@@ -48,6 +57,9 @@ SideStore is compatible with AltStore Sources. SniffleShop uses current AltSourc
 - **Yattee 2.0 build 270** requires iOS 18 or newer.
 - **iTorrent 2.2.0** requires iOS 16 or newer.
 - **RetroArch** can use JIT/dynamic recompilation for supported cores when JIT is available.
+- **PPSSPP 1.20.4** requires iOS 13.0 or newer.
+- **MAME4iOS 2022.5** uses the MAME 0.250 core and requires iOS 13.4 or newer.
+- **Delta 1.6** is the latest official sideload IPA published in Delta's GitHub releases.
 
 ## Repository layout
 
