@@ -16,6 +16,7 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. Rele
 | Angel Aura Amethyst | 1.0.9212a18 | https://alt.crystall1ne.dev | Current official AngelAuraMC build/source; active successor to PojavLauncher. |
 | Provenance | 3.3.0 | https://provenance-emu.com/apps.json | Tracks the current stable release from the official source. |
 | RetroArch | 1.22.2 | https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/ | Official Libretro stable iOS sideload IPA; current upstream release is 1.22.2. |
+| Pocket8 | 1.6.2 | https://github.com/jevonlipsey/pico-ios/releases | Official iOS IPA; supports PICO-8 cartridges including Celeste Classic. |
 
 ## Deliberate exclusions
 

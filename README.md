@@ -41,6 +41,7 @@ Current tracked apps:
 - **PPSSPP** — fast, configurable PlayStation Portable emulator with save states, speed controls, and controller support.
 - **Delta** — Nintendo-focused multi-system emulator with save states, cheats, skins, fast-forward, and controller support.
 - **MAME4iOS** — arcade emulator with deterministic input recording/playback and single-step support for TAS-style work.
+- **Pocket8** — native PICO-8 emulator for iPhone and iPad; runs `.p8`/`.p8.png` cartridges including Celeste Classic and Celeste Classic 2.
 
 Downloads are intentionally limited to official developer GitHub release assets or official project-hosted IPA URLs. SniffleShop does not mirror IPAs.
 
