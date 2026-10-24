@@ -2,7 +2,7 @@
 
 Last reviewed: **2026-10-24**
 
-SniffleShop points to upstream IPA files directly; it does not rehost them. The catalog now tracks 80 distinct apps and 102 downloadable IPA builds, including real rollback versions from the upstream NOOP and VortX feeds. The table below identifies upstream release pages and compatibility caveats. Source metadata has passed the repository schema CI; every external download URL has not yet been live-checked.
+SniffleShop points to upstream IPA files directly; it does not rehost them. The catalog now tracks 80 distinct apps and 102 downloadable IPA builds, including real rollback versions from the upstream NOOP and VortX feeds. The table below identifies upstream release pages and compatibility caveats. Latest CI passed both schema validation and a live link/byte-size audit: **214 URLs checked, 102 IPA sizes checked, zero failures**.
 
 | App | Tracked release | Official upstream | Notes |
 | --- | --- | --- | --- |
