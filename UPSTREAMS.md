@@ -2,7 +2,7 @@
 
 Last reviewed: **2026-10-24**
 
-SniffleShop points to upstream IPA files directly; it does not rehost them. The catalog now tracks 78 distinct apps and 100 downloadable IPA builds, including real rollback versions from the upstream NOOP and VortX feeds. The table below identifies upstream release pages and compatibility caveats. Source metadata has passed the repository schema CI; every external download URL has not yet been live-checked.
+SniffleShop points to upstream IPA files directly; it does not rehost them. The catalog now tracks 80 distinct apps and 102 downloadable IPA builds, including real rollback versions from the upstream NOOP and VortX feeds. The table below identifies upstream release pages and compatibility caveats. Source metadata has passed the repository schema CI; every external download URL has not yet been live-checked.
 
 | App | Tracked release | Official upstream | Notes |
 | --- | --- | --- | --- |
@@ -84,6 +84,9 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | VortX | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 16.0. Emulator/game runtime; performance and JIT needs vary by device. Use with services/content you are authorized to access. |
 | VortX (Apple TV) | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 18.0. |
 | Flycast | 1.0 | https://github.com/chachillie/Flycast-iOS/releases | Minimum iOS 26.0; separate community fork with its own upstream IPA. The older Flyinghead v2.5 URL was stale and is excluded. |
+
+| Nuvio | 0.6.4 | https://github.com/NuvioMedia/NuvioMobile/releases | Open-source media client; bring your own sources; minimum iOS 16.1. |
+| Reynard | 0.18.0 | https://github.com/minh-ton/reynard-browser/releases | Experimental Gecko-based browser; minimum iOS 13.0. |
 
 ## Deliberate exclusions and compatibility notes
 
