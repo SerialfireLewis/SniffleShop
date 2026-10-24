@@ -20,7 +20,7 @@ sidestore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2FSerialfireLewis
 
 ## Catalog
 
-Current tracked apps:
+Current tracked apps (34 entries):
 
 - **LiveContainer** — run guest iOS apps inside a container; the listed standalone IPA is intended for SideStore.
 - **Feather** — on-device signing and IPA/source management.
@@ -42,6 +42,20 @@ Current tracked apps:
 - **Delta** — Nintendo-focused multi-system emulator with save states, cheats, skins, fast-forward, and controller support.
 - **MAME4iOS** — arcade emulator with deterministic input recording/playback and single-step support for TAS-style work.
 - **Pocket8** — native PICO-8 emulator for iPhone and iPad; runs `.p8`/`.p8.png` cartridges including Celeste Classic and Celeste Classic 2.
+- **SideStore** — AltStore fork - no AltServer required. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **UTM SE** — UTM Slow Edition — no JIT required, App Store compliant. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **Spotube** — Open-source Spotify client — no premium needed (SwiftUI/Flutter). See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **BHTwitter** — Tweaked Twitter/X — ad block, download, premium unlock (tweaked). See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **LBox** — SwiftUI repo manager for LiveContainer (NEW 2025). See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **Apollo (Patched)** — Reddit's Apollo — revived with custom API key (tweaked). See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **Cowabunga** — iOS 14-16.1.2 MacDirtyCow toolbox — themes, tweaks, no jailbreak. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **Misaka** — iOS & tvOS customisation for KFD & MDC — successor to Cowabunga. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **Paperback** — Manga reader — extensions, tracking & downloads. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **DebToIPA** — Convert .deb tweaks to .ipa on-device (SwiftUI). See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **ModMyIPA** — Duplicate any IPA — install multiple copies side-by-side. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **Azula** — Inject dylibs into IPAs on-device (SwiftUI + ElleKit). See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **AppDB** — Full client for appdb.to — sideloaded apps database. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
+- **Mirarr** — FOSS movie & TV app — watch movies and TV shows. See [UPSTREAMS.md](UPSTREAMS.md) for source and compatibility notes.
 
 Downloads are intentionally limited to official developer GitHub release assets or official project-hosted IPA URLs. SniffleShop does not mirror IPAs.
 
@@ -96,3 +110,7 @@ The validator checks required metadata, categories, URL/date syntax, version ord
 ## Source policy
 
 SniffleShop favors official developer GitHub releases, official developer-hosted source feeds, open-source projects, and current sideloadable/non-jailbroken builds. It avoids random IPA mirrors, piracy repositories, placeholder metadata, jailbreak-only/TrollStore-only packages presented as ordinary SideStore builds, and releases known to be incompatible without a clear compatibility bound.
+
+## Compatibility and modified apps
+
+Some entries are legacy utilities or only work on specific iOS releases. **BHTwitter and Apollo (Patched) are modified third-party builds, not official releases from the original app developers.** Cowabunga and Misaka are OS-version-dependent customization tools. Read each entry's upstream release notes before installing; the catalog does not imply every app works on every iOS version.
