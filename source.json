@@ -1660,6 +1660,84 @@
           "size": 50003343
         }
       ]
+    },
+    {
+      "name": "VortX",
+      "bundleIdentifier": "com.stremiox.app.native",
+      "developerName": "Mamaclapper",
+      "subtitle": "Stream movies and shows on iPhone and iPad.",
+      "localizedDescription": "VortX is a native, open-source streaming app for Apple devices, built on the official stremio-core engine and the libmpv player. Multi-profile, HDR and Dolby Vision, skip intro and outro, stream ranking, in-app add-ons and debrid keys, and more. Sideload-friendly: this source delivers one-tap updates so you never re-download an IPA by hand.",
+      "iconURL": "https://raw.githubusercontent.com/VortXTV/VortX/main/docs/logo.png",
+      "tintColor": "#C8A24B",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.5.5",
+          "date": "2026-10-17",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.5/VortX-iOS-v0.5.5-ci.ipa",
+          "size": 52081677,
+          "buildVersion": "274",
+          "minOSVersion": "16.0",
+          "sha256": "251d758ddca153760d1fc1d18e3332318a3a32de3a1435a88c63dfa88b883faf"
+        },
+        {
+          "version": "0.5.0",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.0-beta.1/VortX-iOS-v0.5.0-beta.1-ci.ipa",
+          "size": 49917296,
+          "buildVersion": "260",
+          "minOSVersion": "16.0",
+          "sha256": "83342ab8d8dc6be20d5b5e7157b22993a4346a6e5c9f5adc0642d7247612e9eb"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.4.0-beta.21/VortX-iOS-v0.4.0-beta.21-ci.ipa",
+          "size": 65845928,
+          "buildVersion": "259",
+          "minOSVersion": "16.0",
+          "sha256": "64c4dd2d66030d7c278c86893012f972bf20452edee3fec6713b6309bf619ff7"
+        }
+      ]
+    },
+    {
+      "name": "VortX (Apple TV)",
+      "bundleIdentifier": "com.stremiox.tv",
+      "developerName": "Mamaclapper",
+      "subtitle": "Stream movies and shows on Apple TV.",
+      "localizedDescription": "VortX for Apple TV: a native, open-source streaming app on the official stremio-core engine and the libmpv player, with an in-process streaming server for torrents. HDR and Dolby Vision, Dolby Atmos passthrough, stream ranking, in-app add-ons and debrid keys, Top Shelf, and more. This source delivers one-tap updates so you never sideload an IPA by hand.",
+      "iconURL": "https://raw.githubusercontent.com/VortXTV/VortX/main/docs/logo.png",
+      "tintColor": "#C8A24B",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.5.5",
+          "date": "2026-10-17",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.5/VortX-tvOS-v0.5.5-ci.ipa",
+          "size": 50690612,
+          "buildVersion": "274",
+          "minOSVersion": "18.0",
+          "sha256": "7c3a8e37fa5a22d0cf8218afef0a8ea3205d6ced40dfa7aa949dfc463b1edd6b"
+        },
+        {
+          "version": "0.5.0",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.0-beta.1/VortX-tvOS-v0.5.0-beta.1-ci.ipa",
+          "size": 48908742,
+          "buildVersion": "260",
+          "minOSVersion": "18.0",
+          "sha256": "d278c40b9928b7ea13879c73198cb3cbcde04829f5538c6c9aec0e7bde4f111c"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.4.0-beta.21/VortX-tvOS-v0.4.0-beta.21-ci.ipa",
+          "size": 65365086,
+          "buildVersion": "259",
+          "minOSVersion": "18.0",
+          "sha256": "28a7146459064831576c045c4004bc9f79347c0d99ee02b6f928784ac7433eff"
+        }
+      ]
     }
   ],
   "news": []
