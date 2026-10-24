@@ -3,7 +3,7 @@
   "identifier": "com.serialfirelewis.sniffleshop",
   "sourceURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json",
   "subtitle": "Curated sideloading tools, emulators, utilities, and open-source iOS apps",
-  "description": "A broad SideStore/AltStore catalog of 80 distinct apps and 103 upstream IPA builds, including emulators, developer tools, utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
+  "description": "A broad SideStore/AltStore catalog of 80 distinct apps and 102 upstream IPA builds, including emulators, developer tools, utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
   "iconURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/SniffleShop-logo.PNG",
   "website": "https://github.com/SerialfireLewis/SniffleShop",
   "tintColor": "#8B5CF6",
