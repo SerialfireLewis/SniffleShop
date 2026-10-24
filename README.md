@@ -20,7 +20,7 @@ sidestore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2FSerialfireLewis
 
 ## Catalog
 
-Current tracked apps (34 entries):
+Current tracked apps (79 entries):
 
 - **LiveContainer** — run guest iOS apps inside a container; the listed standalone IPA is intended for SideStore.
 - **Feather** — on-device signing and IPA/source management.
@@ -75,6 +75,58 @@ SideStore is compatible with AltStore Sources. SniffleShop uses current AltSourc
 - **PPSSPP 1.20.4** requires iOS 13.0 or newer.
 - **MAME4iOS 2022.5** uses the MAME 0.250 core and requires iOS 13.4 or newer.
 - **Delta 1.6** is the latest official sideload IPA published in Delta's GitHub releases.
+
+### Expanded catalog: additional apps
+
+These 45 additions were imported from maintained developer releases and compatible AltStore/SideStore feeds. Direct download URLs remain upstream-hosted; this repository does not rehost IPA binaries.
+
+- **AirCard-iOS 1.3.2** — Apple Wallet card skins, passcode themes and wallpapers (minimum iOS 27.0).
+- **AniBaka 5.2.3** — 跨平台番剧聚合、媒体播放与弹幕客户端 (minimum iOS 13.0).
+- **AnimeFlow 2.6.4** — 跨平台动漫视频播放器，支持多数据源、实时 4K 超分辨率与弹幕 (minimum iOS 13.0).
+- **Animeko 6.4.0** — 一站式弹幕追番平台 (minimum iOS 14.0).
+- **ARMSX2 2.6.0-nightly.20261023.1332** — PlayStation 2 emulator for ARM64 (minimum iOS 17.0).
+- **BCD 0.1.600** — Windows games on iPhone and iPad (minimum iOS 18.0).
+- **Doer 1.8.6** — A native iOS client for Linux.do (minimum iOS 15.0).
+- **DolphiniOS 5.0.0b6** — GameCube and Wii emulator for iOS/iPadOS (minimum iOS 14.0).
+- **DukeX 1.0.2** — Original Xbox emulation for iOS (minimum iOS 16.0).
+- **EhPanda 2.8.1** — An unofficial E-Hentai App for iOS built with SwiftUI & TCA (minimum iOS 26.0).
+- **Fathom 1.0.0** — x86-64 PC emulator for iOS (minimum iOS 18.0).
+- **Husk 3.0** — Android app launcher for iOS (minimum iOS 16.4).
+- **Iridium 0.2.0** — Experimental Windows-game runtime for iPhone and iPad (minimum iOS 18.0).
+- **Kazumi 2.4.2** — 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。 (minimum iOS 13.0).
+- **KMusic 2.3.0** — 基于 SwiftUI 的多源音乐聚合播放器 (minimum iOS 14.0).
+- **Kumone 0.3.21** — 原生 NetEase Cloud Music iOS 客户端（雲の音） (minimum iOS 16.0).
+- **Madeira 0.1.3** — Windows PC games on your iPhone (minimum iOS 17.0).
+- **Mangayomi 0.9.9** — Read manga, novels, and watch anime.
+- **ManicEMU 2.0.1** — All-in-one retro game emulator for iOS (minimum iOS 15.0).
+- **MiniWatts 1.5.1** — Battery, charging and thermal instrument (minimum iOS 17.0).
+- **MoviePilotLite 1.2.6** — MoviePilot 移动端，基于 Flutter 实现 (minimum iOS 15.0).
+- **Musly 2.0.3** — Free Navidrome client & Subsonic music player (minimum iOS 15.0).
+- **NeoStation iOS 0.0.8** — Emulation frontend for iPhone and iPad (minimum iOS 18.0).
+- **Novella 2.6.0** — 轻书架第三方客户端 (minimum iOS 16.4).
+- **Opaline 1.12.0** — YouTube client for iOS 12+ (minimum iOS 12.0).
+- **Orchard 0.2** — Apple Silicon macOS Ventura running inside an iPhone app (minimum iOS 16.0).
+- **PiliPlus 2.1.6** — 使用Flutter开发的BiliBili第三方客户端 (minimum iOS 14.0).
+- **Pixiv-SwiftUI 0.16.3** — 基于 SwiftUI 的 Pixiv 第三方客户端 (minimum iOS 17.0).
+- **Playport 0.4.0** — PC games on your iPhone. Natively, no streaming. (minimum iOS 26.0).
+- **PSX3IOS 0.2.7-beta** — PlayStation 3 emulator for iPhone and iPad (minimum iOS 15.0).
+- **Roam Control 0.9.9** — Choose, test and move your iPhone's reported location (minimum iOS 27.0).
+- **SceneBox 1.0.4** — Torrent streaming client (minimum iOS 18.0).
+- **SpotiFLAC 5.2.6** — FLAC Downloader for iOS (minimum iOS 16.0).
+- **TiebaPure 1.4.15** — 基于 SwiftUI 的第三方百度贴吧客户端 (minimum iOS 16.4).
+- **Tsumiru 1.5.1** — Native manga & manhwa reader for Suwayomi-Server (minimum iOS 14.0).
+- **VeneraNext 1.18.0** — 跨平台漫画阅读器 (minimum iOS 14.0).
+- **ZhihuMinusMinus 0.9.5** — 轻量、纯净的第三方知乎客户端 (minimum iOS 15.1).
+- **Empo 0.8.1** — Run RPG Maker and PSDK games on iPhone and iPad. (minimum iOS 26.0).
+- **Artemis 3.0** — Alternative client for HIDIVE (minimum iOS 17.0).
+- **PojavLauncher 2.2** — Minecraft: Java Edition on iOS (Swift/ObjC + Java) (minimum iOS 14.0).
+- **Flycast v2.5** — Dreamcast, Naomi and Atomiswave emulator..
+- **AnymeX 3.1.8** — Multiservice tracking client.
+- **Winston for Reddit 1.1.5** — Winston, a beautiful and native Reddit client for iOS.
+- **VortX 0.5.5** — Stream movies and shows on iPhone and iPad. (minimum iOS 16.0).
+- **VortX (Apple TV) 0.5.5** — Stream movies and shows on Apple TV. (minimum iOS 18.0).
+
+Some newer entries require iOS 26 or 27, and some emulators or game runtimes need JIT, user-supplied game files, or compatible source content. Check each entry's version metadata before installing. Modified clients are identified as such in their descriptions; an upstream release link does not imply endorsement by the original service.
 
 ## Repository layout
 
