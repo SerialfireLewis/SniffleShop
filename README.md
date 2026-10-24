@@ -20,9 +20,9 @@ sidestore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2FSerialfireLewis
 
 ## Catalog
 
-**78 distinct apps and 100 downloadable IPA builds** are currently tracked. Multiple versions are retained for NOOP and VortX to provide real upstream rollback options rather than fake extra app entries.
+**80 distinct apps and 102 downloadable IPA builds** are currently tracked. Multiple versions are retained for NOOP and VortX to provide real upstream rollback options rather than fake extra app entries.
 
-Current tracked apps (78 entries; 100 downloadable IPA builds including rollback versions):
+Current tracked apps (80 entries; 102 downloadable IPA builds including rollback versions):
 
 - **LiveContainer** — run guest iOS apps inside a container; the listed standalone IPA is intended for SideStore.
 - **Feather** — on-device signing and IPA/source management.
@@ -80,7 +80,7 @@ SideStore is compatible with AltStore Sources. SniffleShop uses current AltSourc
 
 ### Expanded catalog: additional apps
 
-These 44 additions were imported from maintained developer releases and compatible AltStore/SideStore feeds. Direct download URLs remain upstream-hosted; this repository does not rehost IPA binaries.
+These 46 additions were imported from maintained developer releases and compatible AltStore/SideStore feeds. Direct download URLs remain upstream-hosted; this repository does not rehost IPA binaries.
 
 - **AirCard-iOS 1.3.2** — Apple Wallet card skins, passcode themes and wallpapers (minimum iOS 27.0).
 - **AniBaka 5.2.3** — 跨平台番剧聚合、媒体播放与弹幕客户端 (minimum iOS 13.0).
@@ -126,6 +126,8 @@ These 44 additions were imported from maintained developer releases and compatib
 - **VortX 0.5.5** — Stream movies and shows on iPhone and iPad. (minimum iOS 16.0).
 - **VortX (Apple TV) 0.5.5** — Stream movies and shows on Apple TV. (minimum iOS 18.0).
 - **Flycast 1.0** — Dreamcast, Naomi and Atomiswave emulator. (minimum iOS 26.0).
+- **Nuvio 0.6.4** — Open-source media player, bring your own sources (minimum iOS 16.1).
+- **Reynard 0.18.0** — Gecko-based browser, a real WebKit alternative (minimum iOS 13.0).
 
 Some newer entries require iOS 26 or 27, and some emulators or game runtimes need JIT, user-supplied game files, or compatible source content. Check each entry's version metadata before installing. Modified clients are identified as such in their descriptions; an upstream release link does not imply endorsement by the original service.
 
