@@ -1624,6 +1624,42 @@
           "size": 8161611
         }
       ]
+    },
+    {
+      "name": "AnymeX",
+      "bundleIdentifier": "com.ryan.anymex",
+      "developerName": "RyanYuuki",
+      "subtitle": "Multiservice tracking client",
+      "localizedDescription": "AnymeX is a multiservice tracking client, with AniList, MyAnimeList & Simkl support!",
+      "iconURL": "https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/images/icons/anymex.webp",
+      "tintColor": "71717A",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "3.1.8",
+          "date": "2026-09-20",
+          "downloadURL": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.8/AnymeX-iOS-v3.1.8.ipa",
+          "size": 39830598
+        }
+      ]
+    },
+    {
+      "name": "Winston for Reddit",
+      "bundleIdentifier": "lo.cafe.winston",
+      "developerName": "Kinark",
+      "subtitle": "Winston, a beautiful and native Reddit client for iOS",
+      "localizedDescription": "Introducing Winston: A Stunning and native Reddit client for iOS - In-development, free, and open-source app and bot - User-friendly interface designed for easy navigation - Compliance with Reddit's Terms of Service for a seamless experience - Stay connected with the Reddit community in a sleek and intuitive way - Experience the beauty of Winston, your ultimate iOS Reddit companion. ",
+      "iconURL": "https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/images/0.png",
+      "tintColor": "#000000",
+      "category": "social",
+      "versions": [
+        {
+          "version": "1.1.5",
+          "date": "2024-06-24",
+          "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
+          "size": 50003343
+        }
+      ]
     }
   ],
   "news": []
