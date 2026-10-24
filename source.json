@@ -705,12 +705,7 @@
           "localizedDescription": "v1.6.2 hotfix from the official Pocket8 GitHub release.",
           "buildVersion": "11"
         }
-      ],
-      "appPermissions": {
-        "backgroundAudio": false,
-        "backgroundFetch": false,
-        "photos": false
-      }
+      ]
     },
     {
       "name": "SideStore",
