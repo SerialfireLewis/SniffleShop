@@ -8,7 +8,7 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | --- | --- | --- | --- |
 | LiveContainer | 3.8.0 | https://github.com/LiveContainer/LiveContainer/releases | Minimum iOS 15.0. Uses the standalone `LiveContainer.ipa`, not `LiveContainer+SideStore.ipa`. |
 | Feather | 2.9.0 | https://github.com/claration/Feather/releases | IPA byte size comes from the GitHub release asset; the project's source file currently carries an older size value. |
-| StikDebug | 3.1.15 | https://github.com/StikDebug/StikDebug/releases | Current official debugger/JIT release; iOS 17.4+. |
+| StikDebug | 3.1.15 | https://github.com/StikDebug/StikDebug/releases | Minimum iOS 17.4. Current official debugger/JIT release; iOS 17.4+. |
 | UTM | 4.7.5 | https://alt.getutm.app | Minimum iOS 14.0. Official UTM source; `UTM.ipa` is the non-jailbroken JIT sideloading build. |
 | iSH | 1.3.2 | https://github.com/ish-app/ish/releases | Minimum iOS 11.0. Tracks the latest stable release rather than rolling automated prereleases. |
 | Yattee | 2.0.0 | https://github.com/yattee/yattee/blob/main/altstore-source.json | Minimum iOS 18.0. Current official iOS beta from the developer-maintained AltSource. |
@@ -62,7 +62,6 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | MiniWatts | 1.5.1 | https://github.com/ResistanceTo/MiniWatts/releases | Minimum iOS 17.0. |
 | MoviePilotLite | 1.2.6 | https://github.com/singleton-altman/MoviePilotLite/releases | Minimum iOS 15.0. |
 | Musly | 2.0.3 | https://github.com/dddevid/Musly/releases | Minimum iOS 15.0. |
-| NeoStation iOS | 0.0.8 | https://github.com/TarbleFR/RewindBox/releases | Minimum iOS 18.0. |
 | Novella | 2.6.0 | https://github.com/celia-sh/Novella/releases | Minimum iOS 16.4. |
 | Opaline | 1.12.0 | https://github.com/verback2308/Opaline/releases | Minimum iOS 12.0. Modified client; not an original publisher build. |
 | Orchard | 0.2 | https://github.com/MakrSas/orchard-ios/releases | Minimum iOS 16.0. |
@@ -84,9 +83,9 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | VortX | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 16.0. Emulator/game runtime; performance and JIT needs vary by device. Use with services/content you are authorized to access. |
 | VortX (Apple TV) | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 18.0. |
 | Flycast | 1.0 | https://github.com/chachillie/Flycast-iOS/releases | Minimum iOS 26.0; separate community fork with its own upstream IPA. The older Flyinghead v2.5 URL was stale and is excluded. |
-
 | Nuvio | 0.6.4 | https://github.com/NuvioMedia/NuvioMobile/releases | Open-source media client; bring your own sources; minimum iOS 16.1. |
 | Reynard | 0.18.0 | https://github.com/minh-ton/reynard-browser/releases | Experimental Gecko-based browser; minimum iOS 13.0. |
+| Geode | 1.5.5 | https://github.com/geode-sdk/ios-launcher/releases | Official Geometry Dash mod launcher; minimum iOS 14.0, requires the full game and an internet connection. |
 
 ## Deliberate exclusions and compatibility notes
 
@@ -95,6 +94,8 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 **Jitterbug/Jitterbug Lite** remains excluded. The upstream repository is archived and its latest release is from 2022; StikDebug is the actively maintained JIT tool tracked here.
 
 The older **Flyinghead Flycast v2.5** feed is excluded because its IPA URL is stale. SniffleShop instead tracks a separate **Flycast iOS 26** community fork with its own release artifact.
+
+**RewindBox/NeoStation 0.0.8** was removed after its release IPA URL returned 404 during the link audit. It can be reconsidered if the upstream publishes a reachable, stable asset URL.
 
 ## Metadata rules
 
