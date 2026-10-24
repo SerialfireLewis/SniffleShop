@@ -20,7 +20,9 @@ sidestore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2FSerialfireLewis
 
 ## Catalog
 
-Current tracked apps (79 entries):
+**79 distinct apps and 100 downloadable IPA builds** are currently tracked. Multiple versions are retained for NOOP and VortX to provide real upstream rollback options rather than fake extra app entries.
+
+Current tracked apps (79 entries; 100 downloadable IPA builds including rollback versions):
 
 - **LiveContainer** — run guest iOS apps inside a container; the listed standalone IPA is intended for SideStore.
 - **Feather** — on-device signing and IPA/source management.
