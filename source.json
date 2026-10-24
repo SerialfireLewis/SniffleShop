@@ -1,1 +1,844 @@
-{"name":"SniffleShop","identifier":"com.serialfirelewis.sniffleshop","sourceURL":"https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json","subtitle":"Curated sideloading tools, emulators, utilities, and open-source iOS apps","description":"A curated SideStore/AltStore source built from official developer releases and official project-hosted IPA downloads. No random IPA mirrors, no placeholder apps.","iconURL":"https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/SniffleShop-logo.PNG","website":"https://github.com/SerialfireLewis/SniffleShop","tintColor":"#8B5CF6","nsfw":false,"featuredApps":["com.kdt.livecontainer","com.stik.stikdebug","sh.ppy.osulazer","app.aidoku.Aidoku","com.nyora.ios","com.jevonlipsey.pocket8"],"apps":[{"name":"LiveContainer","bundleIdentifier":"com.kdt.livecontainer","developerName":"LiveContainer Team","subtitle":"Run sideloaded apps inside a container","localizedDescription":"LiveContainer launches iOS apps without installing each one as a separate signed app. It supports multiple guest apps, app management, multitasking features, tweaks, and JIT/JIT-less workflows. The standalone IPA listed here is the build intended to be installed through SideStore 0.6.2 or newer.","iconURL":"https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png","tintColor":"#0784FC","screenshotURLs":["https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/1.png"],"versions":[{"version":"3.8.0","date":"2026-07-17T07:44:20Z","downloadURL":"https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa","size":4707271,"minOSVersion":"15.0","localizedDescription":"Adds storage management, multiple-LiveContainer launch priority, share-sheet app opening, StosDebug JIT support, multitasking improvements, and compatibility fixes."}],"category":"utilities"},{"name":"Feather","bundleIdentifier":"thewonderofyou.Feather","developerName":"Samara","subtitle":"On-device signing and app management","localizedDescription":"Feather is a free, open-source on-device iOS application manager and signer. It can manage IPA libraries and sources, configure signing options and tweaks, and install signed apps on stock iOS.","iconURL":"https://raw.githubusercontent.com/claration/Feather/v1.x/iOS/Resources/Icons/Main/Mac@3x.png","tintColor":"#848EF9","screenshotURLs":["https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Library.png","https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Repos.png","https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Sign.png","https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Store.png"],"versions":[{"version":"2.9.0","date":"2026-07-05T02:11:53Z","downloadURL":"https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa","size":14241853,"localizedDescription":"Adds tweak options to default signing settings, identifier search in the library, and fixes file enumeration, credit links, and duplicate recommended repositories."}],"category":"developer","appPermissions":{}},{"name":"StikDebug","bundleIdentifier":"com.stik.stikdebug","developerName":"StikDebug Team","subtitle":"On-device debugger and JIT enabler","localizedDescription":"StikDebug is an on-device debugger and JIT enabler for iOS 17.4 and newer. It can enable JIT for compatible sideloaded apps, launch apps, inspect live console output and processes, run scripts, inspect app expiry, and simulate device location.","iconURL":"https://raw.githubusercontent.com/StikDebug/StikDebug/main/assets/StikDebug.png","tintColor":"#00BFFF","versions":[{"version":"3.1.10","date":"2026-08-27T04:07:04Z","downloadURL":"https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa","size":12824047,"minOSVersion":"17.4","localizedDescription":"Current 3.1.10 release of StikDebug from the official project."}],"category":"developer"},{"name":"UTM","bundleIdentifier":"com.utmapp.UTM","developerName":"osy","subtitle":"Virtual machines for iOS with JIT","localizedDescription":"UTM is a full-featured virtual machine host for iPhone and iPad built on QEMU. It can emulate many processor architectures and run operating systems including Linux and Windows. This non-SE build uses JIT for substantially faster emulation.","iconURL":"https://alt.getutm.app/icon.png","tintColor":"#1A2CC2","screenshotURLs":["https://alt.getutm.app/screen0.png","https://alt.getutm.app/screen1.png","https://alt.getutm.app/screen2.png","https://alt.getutm.app/screen3.png","https://alt.getutm.app/screen4.png","https://alt.getutm.app/screen5.png","https://alt.getutm.app/screen6.png"],"versions":[{"version":"4.7.5","date":"2026-01-03T17:51:54Z","downloadURL":"https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa","size":130058389,"minOSVersion":"14.0","localizedDescription":"QEMU 10.0.2-based release with OS 26 design updates, App Intents, custom keyboard shortcuts, an improved VM wizard, and stability fixes. This is the non-jailbroken sideloading IPA."}],"category":"utilities"},{"name":"iSH","bundleIdentifier":"app.ish.iSH","developerName":"Theodore Dubois and contributors","subtitle":"A local Linux shell for iOS","localizedDescription":"iSH provides a Linux shell environment locally on iOS using user-mode x86 emulation and Linux syscall translation. It includes a terminal and an Alpine-based userspace, making it useful for shell tools, scripting, package work, and development.","iconURL":"https://ish.app/assets/icon-full.png","tintColor":"#000000","screenshotURLs":["https://ish.app/assets/front-iphone-full.png"],"versions":[{"version":"1.3.2","date":"2023-05-20T23:52:42Z","downloadURL":"https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa","size":4232682,"minOSVersion":"11.0","localizedDescription":"Latest stable GitHub release. Includes file-provider diagnostics fixes and the 1.3.x Linux-shell feature set. Newer automated prerelease builds exist upstream, but SniffleShop tracks the stable release here."}],"category":"developer"},{"name":"Yattee","bundleIdentifier":"stream.yattee.app","developerName":"Yattee","subtitle":"Privacy-focused video player","localizedDescription":"Yattee is an open-source privacy-focused video player for iPhone, iPad, Mac, and Apple TV. It can use Invidious, Piped, or a self-hosted Yattee Server for YouTube, and also supports PeerTube, local files, SMB, WebDAV, background audio, Picture in Picture, SponsorBlock, DeArrow, downloads, subscriptions, bookmarks, and iCloud sync.","iconURL":"https://raw.githubusercontent.com/yattee/yattee/main/Yattee/Assets.xcassets/AppIconPreview.imageset/AppIconPreview.png","tintColor":"#5B8DF5","category":"entertainment","beta":true,"versions":[{"version":"2.0.0","buildVersion":"270","date":"2026-08-23T11:04:42+00:00","downloadURL":"https://github.com/yattee/yattee/releases/download/2.0.0-beta.270/Yattee-2.0.0-iOS.ipa","size":34570188,"minOSVersion":"18.0","localizedDescription":"Current official iOS beta build 270 of the Yattee 2.0 rewrite."}],"appPermissions":{"entitlements":["com.apple.developer.icloud-container-identifiers","com.apple.developer.icloud-services","com.apple.developer.ubiquity-kvstore-identifier","aps-environment"]}},{"name":"iTorrent","bundleIdentifier":"com.xitrix.iTorrent2","developerName":"XITRIX","subtitle":"Native torrent client for iOS","localizedDescription":"iTorrent is an open-source native torrent client for iOS with Files integration, background downloading, Live Activities, Dynamic Island progress, a built-in VLC-based media player, sequential downloading, magnet links, WebDAV/web server support, RSS feeds, and external-drive support.","iconURL":"https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/icon.png","tintColor":"#D03E43","category":"utilities","permissions":[{"type":"network","usageDescription":"Needs network access to download and seed torrent data."},{"type":"background-audio","usageDescription":"Used by the app to keep transfers active in the background."},{"type":"location","usageDescription":"Can be used as a more robust background-running method when enabled."}],"screenshotURLs":["https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/1.png","https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/2.png","https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/3.png","https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/4.png","https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/5.png"],"versions":[{"version":"2.2.0","buildVersion":"1","date":"2026-07-19T09:59:41Z","downloadURL":"https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa","size":24288935,"minOSVersion":"16.0","localizedDescription":"Adds the built-in VLC player, Picture in Picture, AirPlay, sequential/first-last piece priority, multi-file sharing, iOS 26 interface updates, and multiple stability fixes."}],"appPermissions":{"entitlements":["com.apple.security.application-groups"],"privacy":{}},"beta":true},{"name":"Angel Aura Amethyst","bundleIdentifier":"org.angelauramc.amethyst","developerName":"AngelAuraMC","subtitle":"Minecraft Java Edition launcher for iOS","localizedDescription":"Angel Aura Amethyst is the active successor to PojavLauncher for running Minecraft: Java Edition on iOS. It supports many Minecraft versions, mods, resource packs, compatible shaders, multiple instances, custom touch controls, controllers, keyboard and mouse, and Java Edition servers. JIT is required.","iconURL":"https://raw.githubusercontent.com/AngelAuraMC/Amethyst-iOS/main/Natives/Assets.xcassets/AppIcon-Light.appiconset/1024x1024.png","tintColor":"#9649B8","beta":true,"permissions":[{"type":"microphone","usageDescription":"Used by compatible voice-chat mods when they request microphone access."},{"type":"network","usageDescription":"Used for network play, LAN discovery, and supported JIT/sideload integrations."}],"screenshotURLs":["https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG","https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG","https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG","https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG"],"versions":[{"version":"1.0.9212a18","date":"2026-08-10T13:21:40.589103+00:00","downloadURL":"https://alt.crystall1ne.dev/resources/amethyst/9212a18/org.angelauramc.amethyst-1.0-ios.ipa","size":191478253,"minOSVersion":"14.0","localizedDescription":"Current Amethyst test build published by the official AngelAuraMC source, commit 9212a18."}],"category":"games"},{"name":"Provenance","bundleIdentifier":"com.provenance-emu.provenance","developerName":"Provenance-EMU","subtitle":"Multi-system retro emulator for iOS","localizedDescription":"Provenance is an open-source multi-system emulator for iOS and tvOS supporting dozens of classic systems, including Nintendo, Sega, PlayStation and handheld platforms. It includes controller support, save states, RetroAchievements, artwork and library management, and cloud-sync features.","iconURL":"https://raw.githubusercontent.com/Provenance-Emu/Provenance/develop/Provenance/Resources/Assets.xcassets/AppIcon.appiconset/iTunesArtwork%402x.png","tintColor":"#8A2BE2","permissions":[{"type":"network","usageDescription":"Used to discover and connect to local network game servers for netplay."},{"type":"camera","usageDescription":"Used when scanning QR codes for supported game-data import flows."}],"versions":[{"version":"3.3.0","date":"2026-03-14","downloadURL":"https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa","size":1076407494,"localizedDescription":"Stable 3.3.0 release with expanded iCloud/CloudKit sync, a redesigned tvOS interface, video filters and shaders, controller/core fixes, and broad stability improvements."}],"category":"games"},{"name":"RetroArch","bundleIdentifier":"com.libretro.RetroArchiOS11","developerName":"Libretro","subtitle":"Cross-platform frontend for emulation","localizedDescription":"RetroArch is an open-source frontend for emulators, game engines, and media players. The official iOS sideload build includes additional cores compared with marketplace builds and can use JIT/dynamic recompilation for supported cores when JIT is available.","iconURL":"https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/apple/iOS/Resources/Media.xcassets/AppIcon.appiconset/Icon-83.5-3.png","tintColor":"#353739","category":"games","versions":[{"version":"1.22.2","date":"2025-11-20T03:12:17Z","downloadURL":"https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/RetroArch.ipa","size":461036714,"minOSVersion":"12.0","localizedDescription":"Current stable Libretro iOS sideload build, published from RetroArch 1.22.2. This is the official buildbot IPA, not a third-party mirror."}]},{"name":"osu!","bundleIdentifier":"sh.ppy.osulazer","developerName":"osu! team & contributors","subtitle":"Free-to-win rhythm game","localizedDescription":"osu! lazer is the open-source modern osu! client. It brings osu!'s rhythm gameplay to iPhone and iPad with touch input and access to the broader osu! ecosystem.","iconURL":"https://apikusu.github.io/altstore/osu/AppIcon.png","tintColor":"#F964A7","category":"games","screenshotURLs":["https://apikusu.github.io/altstore/osu/screenshots/iphone-1.jpg","https://apikusu.github.io/altstore/osu/screenshots/iphone-2.jpg","https://apikusu.github.io/altstore/osu/screenshots/iphone-3.jpg","https://apikusu.github.io/altstore/osu/screenshots/iphone-4.jpg"],"versions":[{"version":"1.0","buildVersion":"2026.804.2","marketingVersion":"2026.804.2-lazer","date":"2026-08-04T14:28:33Z","downloadURL":"https://github.com/ppy/osu/releases/download/2026.804.2-lazer/osu.iOS.ipa","size":221703996,"minOSVersion":"13.4","localizedDescription":"Official osu! lazer iOS build from the current stable GitHub release."}]},{"name":"Aidoku","bundleIdentifier":"app.aidoku.Aidoku","developerName":"Skitty","subtitle":"Open-source manga reader","localizedDescription":"Aidoku is a free and open-source manga reader for iPhone and iPad with local CBZ reading, configurable external sources, downloads, tracker integration, and reader customization.","iconURL":"https://aidoku.app/images/apple-touch-icon.png","tintColor":"#FF375F","category":"entertainment","screenshots":[{"imageURL":"https://aidoku.app/images/library.png","width":450,"height":908},{"imageURL":"https://aidoku.app/images/source.png","width":450,"height":908},{"imageURL":"https://aidoku.app/images/reader.png","width":450,"height":908}],"appPermissions":{"entitlements":["aps-environment","com.apple.developer.icloud-container-environment","com.apple.developer.icloud-container-identifiers","com.apple.developer.icloud-services","com.apple.developer.ubiquity-container-identifiers","com.apple.developer.ubiquity-kvstore-identifier","com.apple.developer.user-fonts"],"privacy":{"NSFaceIDUsageDescription":"Aidoku needs FaceID permissions for user-defined settings","NSPhotoLibraryUsageDescription":"Aidoku needs permission to save pages in your photo library","NSLocalNetworkUsageDescription":"Aidoku needs permission to connect to local Komga servers"}},"versions":[{"version":"0.9","buildVersion":"3","date":"2026-09-03","downloadURL":"https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa","size":14731108,"minOSVersion":"15.0","localizedDescription":"Adds OCR dictionary support, a built-in Suwayomi source, webtoon auto-scroll, Cloudflare handling fixes, source stability controls, and performance improvements."}]},{"name":"NOOP","bundleIdentifier":"com.noopapp.noop","developerName":"NoopApp","subtitle":"Offline WHOOP strap companion","localizedDescription":"NOOP is an independent open-source companion for a WHOOP 4.0, 5.0, or MG strap you own. It talks directly to the strap over Bluetooth, works without the WHOOP app or cloud, and computes its own on-device activity scores.","iconURL":"https://github.com/ryanbr/noop/raw/main/Strand/Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512.png","tintColor":"#44E2B0","category":"utilities","permissions":[{"type":"bluetooth","usageDescription":"Connects directly to a compatible WHOOP strap."}],"versions":[{"version":"11.5.0","buildVersion":"356","date":"2026-09-09","downloadURL":"https://github.com/ryanbr/noop/releases/download/v11.5.0/NOOP-ios-unsigned-v11.5.0.ipa","size":19998667,"minOSVersion":"17.0","localizedDescription":"Current official sideload build of NOOP 11.5.0."}]},{"name":"Nyora","bundleIdentifier":"com.nyora.ios","developerName":"Nyora Manga","subtitle":"Modern manga and comics reader","localizedDescription":"Nyora is an open-source manga and comics reader for iOS with a modern native interface, source support, library management, downloads, and reading customization.","iconURL":"https://raw.githubusercontent.com/Nyora-Manga/nyora-ios/main/Shared/Assets.xcassets/AppIcon.appiconset/180.png","tintColor":"#8B5CF6","category":"entertainment","versions":[{"version":"2.7.3","date":"2026-08-05T14:11:21Z","downloadURL":"https://github.com/Nyora-Manga/nyora-ios/releases/download/v2.7.3/Nyora-2.7.3.ipa","size":47097388,"minOSVersion":"18.0","localizedDescription":"Official Nyora 2.7.3 iOS release from the project GitHub."}]},{"name":"Stremio","bundleIdentifier":"com.stremio.pal","developerName":"Stremio","subtitle":"Extensible media center","localizedDescription":"Stremio is a media center for movies, series, live TV, and web channels with an add-on system. This entry uses the plain iOS IPA published on Stremio's own CDN; some Apple-account integrations do not work when sideloaded.","iconURL":"https://raw.githubusercontent.com/Stremio/stremio-brand/master/favicons/stremio-service-dicon-white-gb%40256px.png","tintColor":"#7055D9","category":"entertainment","versions":[{"version":"2.0.7","buildVersion":"22","date":"2026-08-24","downloadURL":"https://dl.strem.io/apple/2.0.7b22/ios/stremio_iOS.ipa","size":78704513,"sha256":"cddfe220ce1f0c3befaf29eff9d7c3fe9cdb737bbac4353468169ba0d28b2c0f","minOSVersion":"13.0","localizedDescription":"Adds download Live Activities, storage management, subtitle Live Sync, playback fixes, and multiple download and iPad improvements."}]},{"name":"Sable","bundleIdentifier":"moe.sable.client","developerName":"Sable contributors","subtitle":"Modern Matrix client","localizedDescription":"Sable is an open-source Matrix client with encrypted messaging, calls, media, notifications, and a native iOS build distributed directly by the project.","iconURL":"https://raw.githubusercontent.com/SableClient/Sable/dev/src-tauri/icons/128x128%402x.png","category":"social","versions":[{"version":"1.21.0","date":"2026-08-17T21:06:17Z","downloadURL":"https://github.com/SableClient/Sable/releases/download/v1.21.0/Sable-1.21.0-ios-arm64.ipa","size":29577112,"minOSVersion":"16.0","localizedDescription":"Official stable iOS build from Sable 1.21.0."}]},{"name":"PPSSPP","bundleIdentifier":"org.ppsspp.ppsspp","developerName":"PPSSPP Project","subtitle":"Fast, accurate PSP emulator","localizedDescription":"PPSSPP is an open-source PlayStation Portable emulator with high-resolution rendering, save states, speed controls, controller support, texture scaling, networking features, and extensive per-game configuration.","iconURL":"https://raw.githubusercontent.com/hrydgard/ppsspp/master/ios/assets.xcassets/AppIcon.appiconset/icon_backfill_1024.png","tintColor":"#2C78D4","category":"games","versions":[{"version":"1.20.4","date":"2026-05-16T12:35:08Z","downloadURL":"https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa","size":31124277,"minOSVersion":"13.0","localizedDescription":"Official iOS IPA from the PPSSPP 1.20.4 release."}]},{"name":"Delta","bundleIdentifier":"com.rileytestut.Delta","developerName":"Riley Testut","subtitle":"Nintendo-focused multi-system emulator","localizedDescription":"Delta is an open-source emulator for classic Nintendo systems with controller skins, save states, cheats, controller support, fast-forward, game artwork, and sync-friendly save management.","iconURL":"https://raw.githubusercontent.com/rileytestut/Delta/main/Resources/Icons.xcassets/Modern/ModernIcon.appiconset/Icon1024.png","tintColor":"#E22D3D","category":"games","versions":[{"version":"1.6","date":"2024-07-11T01:08:23Z","downloadURL":"https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa","size":87734964,"localizedDescription":"Official Delta 1.6 sideload IPA with native iPad support, Handoff, updated melonDS, save-state export, and additional controller gestures."}]},{"name":"MAME4iOS","bundleIdentifier":"com.yoshisuga.mame","developerName":"MAME4iOS contributors","subtitle":"Arcade emulator with TAS-friendly tools","localizedDescription":"MAME4iOS brings MAME to iPhone and iPad. In addition to arcade emulation, its MAME core includes deterministic input recording/playback and single-step support, making it useful for TAS-style input work and frame-by-frame testing.","iconURL":"https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/xcode/MAME4iOS/MAME4iOS/Assets.xcassets/AppIcon.appiconset/1024.png","tintColor":"#282828","category":"games","versions":[{"version":"2022.5","buildVersion":"250","date":"2022-12-12T02:14:59Z","downloadURL":"https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-250.ipa","size":107682071,"minOSVersion":"13.4","localizedDescription":"Official 2022.5 iOS build using the MAME 0.250 core."}]},{"name":"Pocket8","bundleIdentifier":"com.jevonlipsey.pocket8","developerName":"Jevon Lipsey","subtitle":"Native PICO-8 emulator for iOS","localizedDescription":"Pocket8 is a native PICO-8 emulator for iPhone and iPad. It supports .p8 and .p8.png cartridges, responsive touch controls, controller input, save states, and a unified cartridge library. It can run Celeste Classic and Celeste Classic 2.","iconURL":"https://raw.githubusercontent.com/jevonlipsey/pico-ios/refs/heads/main/assets/icon.png","tintColor":"#8e2de2","category":"games","versions":[{"version":"1.6.2","date":"2026-01-22T23:33:34Z","downloadURL":"https://github.com/jevonlipsey/pico-ios/releases/download/v1.6.2/pocket8.ipa","size":19479747,"minOSVersion":"15.0","sha256":"b6c1003801ac5368a45dc3e10a7a752e08fc24da13b57bbe7a275ae5432a0504","localizedDescription":"v1.6.2 hotfix from the official Pocket8 GitHub release.","buildVersion":"11"}],"appPermissions":{"backgroundAudio":false,"backgroundFetch":false,"photos":false}}],"news":[]}
+{
+  "name": "SniffleShop",
+  "identifier": "com.serialfirelewis.sniffleshop",
+  "sourceURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json",
+  "subtitle": "Curated sideloading tools, emulators, utilities, and open-source iOS apps",
+  "description": "A broad SideStore/AltStore catalog of emulators, developer tools, utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
+  "iconURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/SniffleShop-logo.PNG",
+  "website": "https://github.com/SerialfireLewis/SniffleShop",
+  "tintColor": "#8B5CF6",
+  "nsfw": false,
+  "featuredApps": [
+    "com.kdt.livecontainer",
+    "com.stik.stikdebug",
+    "org.ppsspp.ppsspp-free",
+    "com.jevonlipsey.pocket8",
+    "com.SideStore.SideStore"
+  ],
+  "apps": [
+    {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "LiveContainer Team",
+      "subtitle": "Run sideloaded apps inside a container",
+      "localizedDescription": "LiveContainer launches iOS apps without installing each one as a separate signed app. It supports multiple guest apps, app management, multitasking features, tweaks, and JIT/JIT-less workflows. The standalone IPA listed here is the build intended to be installed through SideStore 0.6.2 or newer.",
+      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
+      "tintColor": "#0784FC",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/1.png"
+      ],
+      "versions": [
+        {
+          "version": "3.8.0",
+          "date": "2026-07-17T07:44:20Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+          "size": 4707271,
+          "minOSVersion": "15.0",
+          "localizedDescription": "Adds storage management, multiple-LiveContainer launch priority, share-sheet app opening, StosDebug JIT support, multitasking improvements, and compatibility fixes."
+        }
+      ],
+      "category": "utilities"
+    },
+    {
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "Samara",
+      "subtitle": "On-device signing and app management",
+      "localizedDescription": "Feather is a free, open-source on-device iOS application manager and signer. It can manage IPA libraries and sources, configure signing options and tweaks, and install signed apps on stock iOS.",
+      "iconURL": "https://raw.githubusercontent.com/claration/Feather/v1.x/iOS/Resources/Icons/Main/Mac@3x.png",
+      "tintColor": "#848EF9",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Library.png",
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Repos.png",
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Sign.png",
+        "https://raw.githubusercontent.com/claration/Feather/v1.x/Images/Store.png"
+      ],
+      "versions": [
+        {
+          "version": "2.9.0",
+          "date": "2026-07-05T02:11:53Z",
+          "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
+          "size": 14241853,
+          "localizedDescription": "Adds tweak options to default signing settings, identifier search in the library, and fixes file enumeration, credit links, and duplicate recommended repositories."
+        }
+      ],
+      "category": "developer",
+      "appPermissions": {}
+    },
+    {
+      "name": "StikDebug",
+      "bundleIdentifier": "com.stik.stikdebug",
+      "developerName": "StikDebug Team",
+      "subtitle": "On-device debugger and JIT enabler",
+      "localizedDescription": "StikDebug is an on-device debugger and JIT enabler for iOS 17.4 and newer. It can enable JIT for compatible sideloaded apps, launch apps, inspect live console output and processes, run scripts, inspect app expiry, and simulate device location.",
+      "iconURL": "https://raw.githubusercontent.com/StikDebug/StikDebug/main/assets/StikDebug.png",
+      "tintColor": "#00BFFF",
+      "versions": [
+        {
+          "version": "3.1.10",
+          "date": "2026-08-27T04:07:04Z",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
+          "size": 12824047,
+          "minOSVersion": "17.4",
+          "localizedDescription": "Current 3.1.10 release of StikDebug from the official project."
+        }
+      ],
+      "category": "developer"
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS with JIT",
+      "localizedDescription": "UTM is a full-featured virtual machine host for iPhone and iPad built on QEMU. It can emulate many processor architectures and run operating systems including Linux and Windows. This non-SE build uses JIT for substantially faster emulation.",
+      "iconURL": "https://alt.getutm.app/icon.png",
+      "tintColor": "#1A2CC2",
+      "screenshotURLs": [
+        "https://alt.getutm.app/screen0.png",
+        "https://alt.getutm.app/screen1.png",
+        "https://alt.getutm.app/screen2.png",
+        "https://alt.getutm.app/screen3.png",
+        "https://alt.getutm.app/screen4.png",
+        "https://alt.getutm.app/screen5.png",
+        "https://alt.getutm.app/screen6.png"
+      ],
+      "versions": [
+        {
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+          "size": 130058389,
+          "minOSVersion": "14.0",
+          "localizedDescription": "QEMU 10.0.2-based release with OS 26 design updates, App Intents, custom keyboard shortcuts, an improved VM wizard, and stability fixes. This is the non-jailbroken sideloading IPA."
+        }
+      ],
+      "category": "utilities"
+    },
+    {
+      "name": "iSH",
+      "bundleIdentifier": "app.ish.iSH",
+      "developerName": "Theodore Dubois and contributors",
+      "subtitle": "A local Linux shell for iOS",
+      "localizedDescription": "iSH provides a Linux shell environment locally on iOS using user-mode x86 emulation and Linux syscall translation. It includes a terminal and an Alpine-based userspace, making it useful for shell tools, scripting, package work, and development.",
+      "iconURL": "https://ish.app/assets/icon-full.png",
+      "tintColor": "#000000",
+      "screenshotURLs": [
+        "https://ish.app/assets/front-iphone-full.png"
+      ],
+      "versions": [
+        {
+          "version": "1.3.2",
+          "date": "2023-05-20T23:52:42Z",
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+          "size": 4232682,
+          "minOSVersion": "11.0",
+          "localizedDescription": "Latest stable GitHub release. Includes file-provider diagnostics fixes and the 1.3.x Linux-shell feature set. Newer automated prerelease builds exist upstream, but SniffleShop tracks the stable release here."
+        }
+      ],
+      "category": "developer"
+    },
+    {
+      "name": "Yattee",
+      "bundleIdentifier": "stream.yattee.app",
+      "developerName": "Yattee",
+      "subtitle": "Privacy-focused video player",
+      "localizedDescription": "Yattee is an open-source privacy-focused video player for iPhone, iPad, Mac, and Apple TV. It can use Invidious, Piped, or a self-hosted Yattee Server for YouTube, and also supports PeerTube, local files, SMB, WebDAV, background audio, Picture in Picture, SponsorBlock, DeArrow, downloads, subscriptions, bookmarks, and iCloud sync.",
+      "iconURL": "https://raw.githubusercontent.com/yattee/yattee/main/Yattee/Assets.xcassets/AppIconPreview.imageset/AppIconPreview.png",
+      "tintColor": "#5B8DF5",
+      "category": "entertainment",
+      "beta": true,
+      "versions": [
+        {
+          "version": "2.0.0",
+          "buildVersion": "270",
+          "date": "2026-08-23T11:04:42+00:00",
+          "downloadURL": "https://github.com/yattee/yattee/releases/download/2.0.0-beta.270/Yattee-2.0.0-iOS.ipa",
+          "size": 34570188,
+          "minOSVersion": "18.0",
+          "localizedDescription": "Current official iOS beta build 270 of the Yattee 2.0 rewrite."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "aps-environment"
+        ]
+      }
+    },
+    {
+      "name": "iTorrent",
+      "bundleIdentifier": "com.xitrix.iTorrent2",
+      "developerName": "XITRIX",
+      "subtitle": "Native torrent client for iOS",
+      "localizedDescription": "iTorrent is an open-source native torrent client for iOS with Files integration, background downloading, Live Activities, Dynamic Island progress, a built-in VLC-based media player, sequential downloading, magnet links, WebDAV/web server support, RSS feeds, and external-drive support.",
+      "iconURL": "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/icon.png",
+      "tintColor": "#D03E43",
+      "category": "utilities",
+      "permissions": [
+        {
+          "type": "network",
+          "usageDescription": "Needs network access to download and seed torrent data."
+        },
+        {
+          "type": "background-audio",
+          "usageDescription": "Used by the app to keep transfers active in the background."
+        },
+        {
+          "type": "location",
+          "usageDescription": "Can be used as a more robust background-running method when enabled."
+        }
+      ],
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/1.png",
+        "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/2.png",
+        "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/3.png",
+        "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/4.png",
+        "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/5.png"
+      ],
+      "versions": [
+        {
+          "version": "2.2.0",
+          "buildVersion": "1",
+          "date": "2026-07-19T09:59:41Z",
+          "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+          "size": 24288935,
+          "minOSVersion": "16.0",
+          "localizedDescription": "Adds the built-in VLC player, Picture in Picture, AirPlay, sequential/first-last piece priority, multi-file sharing, iOS 26 interface updates, and multiple stability fixes."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {}
+      },
+      "beta": true
+    },
+    {
+      "name": "Angel Aura Amethyst",
+      "bundleIdentifier": "org.angelauramc.amethyst",
+      "developerName": "AngelAuraMC",
+      "subtitle": "Minecraft Java Edition launcher for iOS",
+      "localizedDescription": "Angel Aura Amethyst is the active successor to PojavLauncher for running Minecraft: Java Edition on iOS. It supports many Minecraft versions, mods, resource packs, compatible shaders, multiple instances, custom touch controls, controllers, keyboard and mouse, and Java Edition servers. JIT is required.",
+      "iconURL": "https://raw.githubusercontent.com/AngelAuraMC/Amethyst-iOS/main/Natives/Assets.xcassets/AppIcon-Light.appiconset/1024x1024.png",
+      "tintColor": "#9649B8",
+      "beta": true,
+      "permissions": [
+        {
+          "type": "microphone",
+          "usageDescription": "Used by compatible voice-chat mods when they request microphone access."
+        },
+        {
+          "type": "network",
+          "usageDescription": "Used for network play, LAN discovery, and supported JIT/sideload integrations."
+        }
+      ],
+      "screenshotURLs": [
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG",
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG",
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG",
+        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG"
+      ],
+      "versions": [
+        {
+          "version": "1.0.9212a18",
+          "date": "2026-08-10T13:21:40.589103+00:00",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/9212a18/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 191478253,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Current Amethyst test build published by the official AngelAuraMC source, commit 9212a18."
+        }
+      ],
+      "category": "games"
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "com.provenance-emu.provenance",
+      "developerName": "Provenance-EMU",
+      "subtitle": "Multi-system retro emulator for iOS",
+      "localizedDescription": "Provenance is an open-source multi-system emulator for iOS and tvOS supporting dozens of classic systems, including Nintendo, Sega, PlayStation and handheld platforms. It includes controller support, save states, RetroAchievements, artwork and library management, and cloud-sync features.",
+      "iconURL": "https://raw.githubusercontent.com/Provenance-Emu/Provenance/develop/Provenance/Resources/Assets.xcassets/AppIcon.appiconset/iTunesArtwork%402x.png",
+      "tintColor": "#8A2BE2",
+      "permissions": [
+        {
+          "type": "network",
+          "usageDescription": "Used to discover and connect to local network game servers for netplay."
+        },
+        {
+          "type": "camera",
+          "usageDescription": "Used when scanning QR codes for supported game-data import flows."
+        }
+      ],
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+          "size": 1076407494,
+          "localizedDescription": "Stable 3.3.0 release with expanded iCloud/CloudKit sync, a redesigned tvOS interface, video filters and shaders, controller/core fixes, and broad stability improvements."
+        }
+      ],
+      "category": "games"
+    },
+    {
+      "name": "RetroArch",
+      "bundleIdentifier": "com.libretro.RetroArchiOS11",
+      "developerName": "Libretro",
+      "subtitle": "Cross-platform frontend for emulation",
+      "localizedDescription": "RetroArch is an open-source frontend for emulators, game engines, and media players. The official iOS sideload build includes additional cores compared with marketplace builds and can use JIT/dynamic recompilation for supported cores when JIT is available.",
+      "iconURL": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/apple/iOS/Resources/Media.xcassets/AppIcon.appiconset/Icon-83.5-3.png",
+      "tintColor": "#353739",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.22.2",
+          "date": "2025-11-20T03:12:17Z",
+          "downloadURL": "https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/RetroArch.ipa",
+          "size": 461036714,
+          "minOSVersion": "12.0",
+          "localizedDescription": "Current stable Libretro iOS sideload build, published from RetroArch 1.22.2. This is the official buildbot IPA, not a third-party mirror."
+        }
+      ]
+    },
+    {
+      "name": "osu!",
+      "bundleIdentifier": "sh.ppy.osulazer",
+      "developerName": "osu! team & contributors",
+      "subtitle": "Free-to-win rhythm game",
+      "localizedDescription": "osu! lazer is the open-source modern osu! client. It brings osu!'s rhythm gameplay to iPhone and iPad with touch input and access to the broader osu! ecosystem.",
+      "iconURL": "https://apikusu.github.io/altstore/osu/AppIcon.png",
+      "tintColor": "#F964A7",
+      "category": "games",
+      "screenshotURLs": [
+        "https://apikusu.github.io/altstore/osu/screenshots/iphone-1.jpg",
+        "https://apikusu.github.io/altstore/osu/screenshots/iphone-2.jpg",
+        "https://apikusu.github.io/altstore/osu/screenshots/iphone-3.jpg",
+        "https://apikusu.github.io/altstore/osu/screenshots/iphone-4.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "2026.804.2",
+          "marketingVersion": "2026.804.2-lazer",
+          "date": "2026-08-04T14:28:33Z",
+          "downloadURL": "https://github.com/ppy/osu/releases/download/2026.804.2-lazer/osu.iOS.ipa",
+          "size": 221703996,
+          "minOSVersion": "13.4",
+          "localizedDescription": "Official osu! lazer iOS build from the current stable GitHub release."
+        }
+      ]
+    },
+    {
+      "name": "Aidoku",
+      "bundleIdentifier": "app.aidoku.Aidoku",
+      "developerName": "Skitty",
+      "subtitle": "Open-source manga reader",
+      "localizedDescription": "Aidoku is a free and open-source manga reader for iPhone and iPad with local CBZ reading, configurable external sources, downloads, tracker integration, and reader customization.",
+      "iconURL": "https://aidoku.app/images/apple-touch-icon.png",
+      "tintColor": "#FF375F",
+      "category": "entertainment",
+      "screenshots": [
+        {
+          "imageURL": "https://aidoku.app/images/library.png",
+          "width": 450,
+          "height": 908
+        },
+        {
+          "imageURL": "https://aidoku.app/images/source.png",
+          "width": 450,
+          "height": 908
+        },
+        {
+          "imageURL": "https://aidoku.app/images/reader.png",
+          "width": 450,
+          "height": 908
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "aps-environment",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.user-fonts"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Aidoku needs FaceID permissions for user-defined settings",
+          "NSPhotoLibraryUsageDescription": "Aidoku needs permission to save pages in your photo library",
+          "NSLocalNetworkUsageDescription": "Aidoku needs permission to connect to local Komga servers"
+        }
+      },
+      "versions": [
+        {
+          "version": "0.9",
+          "buildVersion": "3",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+          "size": 14731108,
+          "minOSVersion": "15.0",
+          "localizedDescription": "Adds OCR dictionary support, a built-in Suwayomi source, webtoon auto-scroll, Cloudflare handling fixes, source stability controls, and performance improvements."
+        }
+      ]
+    },
+    {
+      "name": "NOOP",
+      "bundleIdentifier": "com.noopapp.noop",
+      "developerName": "NoopApp",
+      "subtitle": "Offline WHOOP strap companion",
+      "localizedDescription": "NOOP is an independent open-source companion for a WHOOP 4.0, 5.0, or MG strap you own. It talks directly to the strap over Bluetooth, works without the WHOOP app or cloud, and computes its own on-device activity scores.",
+      "iconURL": "https://github.com/ryanbr/noop/raw/main/Strand/Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+      "tintColor": "#44E2B0",
+      "category": "utilities",
+      "permissions": [
+        {
+          "type": "bluetooth",
+          "usageDescription": "Connects directly to a compatible WHOOP strap."
+        }
+      ],
+      "versions": [
+        {
+          "version": "11.5.0",
+          "buildVersion": "356",
+          "date": "2026-09-09",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.5.0/NOOP-ios-unsigned-v11.5.0.ipa",
+          "size": 19998667,
+          "minOSVersion": "17.0",
+          "localizedDescription": "Current official sideload build of NOOP 11.5.0."
+        }
+      ]
+    },
+    {
+      "name": "Nyora",
+      "bundleIdentifier": "com.nyora.ios",
+      "developerName": "Nyora Manga",
+      "subtitle": "Modern manga and comics reader",
+      "localizedDescription": "Nyora is an open-source manga and comics reader for iOS with a modern native interface, source support, library management, downloads, and reading customization.",
+      "iconURL": "https://raw.githubusercontent.com/Nyora-Manga/nyora-ios/main/Shared/Assets.xcassets/AppIcon.appiconset/180.png",
+      "tintColor": "#8B5CF6",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.7.3",
+          "date": "2026-08-05T14:11:21Z",
+          "downloadURL": "https://github.com/Nyora-Manga/nyora-ios/releases/download/v2.7.3/Nyora-2.7.3.ipa",
+          "size": 47097388,
+          "minOSVersion": "18.0",
+          "localizedDescription": "Official Nyora 2.7.3 iOS release from the project GitHub."
+        }
+      ]
+    },
+    {
+      "name": "Stremio",
+      "bundleIdentifier": "com.stremio.pal",
+      "developerName": "Stremio",
+      "subtitle": "Extensible media center",
+      "localizedDescription": "Stremio is a media center for movies, series, live TV, and web channels with an add-on system. This entry uses the plain iOS IPA published on Stremio's own CDN; some Apple-account integrations do not work when sideloaded.",
+      "iconURL": "https://raw.githubusercontent.com/Stremio/stremio-brand/master/favicons/stremio-service-dicon-white-gb%40256px.png",
+      "tintColor": "#7055D9",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.0.7",
+          "buildVersion": "22",
+          "date": "2026-08-24",
+          "downloadURL": "https://dl.strem.io/apple/2.0.7b22/ios/stremio_iOS.ipa",
+          "size": 78704513,
+          "sha256": "cddfe220ce1f0c3befaf29eff9d7c3fe9cdb737bbac4353468169ba0d28b2c0f",
+          "minOSVersion": "13.0",
+          "localizedDescription": "Adds download Live Activities, storage management, subtitle Live Sync, playback fixes, and multiple download and iPad improvements."
+        }
+      ]
+    },
+    {
+      "name": "Sable",
+      "bundleIdentifier": "moe.sable.client",
+      "developerName": "Sable contributors",
+      "subtitle": "Modern Matrix client",
+      "localizedDescription": "Sable is an open-source Matrix client with encrypted messaging, calls, media, notifications, and a native iOS build distributed directly by the project.",
+      "iconURL": "https://raw.githubusercontent.com/SableClient/Sable/dev/src-tauri/icons/128x128%402x.png",
+      "category": "social",
+      "versions": [
+        {
+          "version": "1.21.0",
+          "date": "2026-08-17T21:06:17Z",
+          "downloadURL": "https://github.com/SableClient/Sable/releases/download/v1.21.0/Sable-1.21.0-ios-arm64.ipa",
+          "size": 29577112,
+          "minOSVersion": "16.0",
+          "localizedDescription": "Official stable iOS build from Sable 1.21.0."
+        }
+      ]
+    },
+    {
+      "name": "PPSSPP",
+      "bundleIdentifier": "org.ppsspp.ppsspp",
+      "developerName": "PPSSPP Project",
+      "subtitle": "Fast, accurate PSP emulator",
+      "localizedDescription": "PPSSPP is an open-source PlayStation Portable emulator with high-resolution rendering, save states, speed controls, controller support, texture scaling, networking features, and extensive per-game configuration.",
+      "iconURL": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/ios/assets.xcassets/AppIcon.appiconset/icon_backfill_1024.png",
+      "tintColor": "#2C78D4",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.20.4",
+          "date": "2026-05-16T12:35:08Z",
+          "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+          "size": 31124277,
+          "minOSVersion": "13.0",
+          "localizedDescription": "Official iOS IPA from the PPSSPP 1.20.4 release."
+        }
+      ]
+    },
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.rileytestut.Delta",
+      "developerName": "Riley Testut",
+      "subtitle": "Nintendo-focused multi-system emulator",
+      "localizedDescription": "Delta is an open-source emulator for classic Nintendo systems with controller skins, save states, cheats, controller support, fast-forward, game artwork, and sync-friendly save management.",
+      "iconURL": "https://raw.githubusercontent.com/rileytestut/Delta/main/Resources/Icons.xcassets/Modern/ModernIcon.appiconset/Icon1024.png",
+      "tintColor": "#E22D3D",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.6",
+          "date": "2024-07-11T01:08:23Z",
+          "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
+          "size": 87734964,
+          "localizedDescription": "Official Delta 1.6 sideload IPA with native iPad support, Handoff, updated melonDS, save-state export, and additional controller gestures."
+        }
+      ]
+    },
+    {
+      "name": "MAME4iOS",
+      "bundleIdentifier": "com.yoshisuga.mame",
+      "developerName": "MAME4iOS contributors",
+      "subtitle": "Arcade emulator with TAS-friendly tools",
+      "localizedDescription": "MAME4iOS brings MAME to iPhone and iPad. In addition to arcade emulation, its MAME core includes deterministic input recording/playback and single-step support, making it useful for TAS-style input work and frame-by-frame testing.",
+      "iconURL": "https://raw.githubusercontent.com/yoshisuga/MAME4iOS/master/xcode/MAME4iOS/MAME4iOS/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "tintColor": "#282828",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2022.5",
+          "buildVersion": "250",
+          "date": "2022-12-12T02:14:59Z",
+          "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-250.ipa",
+          "size": 107682071,
+          "minOSVersion": "13.4",
+          "localizedDescription": "Official 2022.5 iOS build using the MAME 0.250 core."
+        }
+      ]
+    },
+    {
+      "name": "Pocket8",
+      "bundleIdentifier": "com.jevonlipsey.pocket8",
+      "developerName": "Jevon Lipsey",
+      "subtitle": "Native PICO-8 emulator for iOS",
+      "localizedDescription": "Pocket8 is a native PICO-8 emulator for iPhone and iPad. It supports .p8 and .p8.png cartridges, responsive touch controls, controller input, save states, and a unified cartridge library. It can run Celeste Classic and Celeste Classic 2.",
+      "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/refs/heads/main/assets/icon.png",
+      "tintColor": "#8e2de2",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.6.2",
+          "date": "2026-01-22T23:33:34Z",
+          "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.6.2/pocket8.ipa",
+          "size": 19479747,
+          "minOSVersion": "15.0",
+          "sha256": "b6c1003801ac5368a45dc3e10a7a752e08fc24da13b57bbe7a275ae5432a0504",
+          "localizedDescription": "v1.6.2 hotfix from the official Pocket8 GitHub release.",
+          "buildVersion": "11"
+        }
+      ],
+      "appPermissions": {
+        "backgroundAudio": false,
+        "backgroundFetch": false,
+        "photos": false
+      }
+    },
+    {
+      "name": "SideStore",
+      "bundleIdentifier": "com.SideStore.SideStore",
+      "developerName": "SideStore Team",
+      "subtitle": "AltStore fork - no AltServer required",
+      "localizedDescription": "Community fork of AltStore that refreshes apps on-device via WireGuard/idevice pairing. AGPL-3.0. Use with LiveContainer or as your daily sidestore. Latest 0.6.3 fixes VPN on iOS 26.4+ (reinstall via iloader advised).",
+      "iconURL": "https://github.com/SideStore.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.6.3",
+          "date": "2026-05-05T03:59:02Z",
+          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa",
+          "size": 28632252,
+          "minOSVersion": "14.0",
+          "localizedDescription": "AltStore fork with on-device refresh."
+        }
+      ],
+      "tintColor": "#00C7BE"
+    },
+    {
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "developerName": "UTM Team (osy)",
+      "subtitle": "UTM Slow Edition — no JIT required, App Store compliant",
+      "localizedDescription": "UTM SE is the App Store-compliant build that runs without JIT/hypervisor - slower but works without a JIT enabler. Ideal for sideloading if you don't want to manage JIT. Same 4.7.5 release as UTM.",
+      "iconURL": "https://github.com/utmapp.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
+          "size": 213878374,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Slow Edition - runs without JIT. Use this if you don't have StikDebug/JIT."
+        }
+      ],
+      "tintColor": "#FF9500"
+    },
+    {
+      "name": "Spotube",
+      "bundleIdentifier": "oss.krtirtho.spotube",
+      "developerName": "KRTirtho (Spotube)",
+      "subtitle": "Open-source Spotify client — no premium needed (SwiftUI/Flutter)",
+      "localizedDescription": "Spotube is a lightweight, privacy-friendly Spotify frontend that streams from YouTube Music / Piped — no Spotify premium required. SwiftUI/Flutter codebase, GPL-3.0 friendly, 48k+ stars. This iOS IPA is the official GitHub Release (Spotube-iOS.ipa). Newest value pick for 2026.",
+      "iconURL": "https://github.com/KRTirtho.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "5.1.2",
+          "date": "2026-06-05T05:10:18Z",
+          "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
+          "size": 34853093,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Open-source Spotify client with YouTube/Piped backend. No account needed."
+        }
+      ],
+      "tintColor": "#1DB954"
+    },
+    {
+      "name": "BHTwitter",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "developerName": "BandarHL",
+      "subtitle": "Tweaked Twitter/X — ad block, download, premium unlock (tweaked)",
+      "localizedDescription": "BHTwitter is the most complete Twitter/X tweak: block ads & promoted tweets, download videos/images, hide trends, unlock premium features and custom themes. Injected into a decrypted Twitter IPA — sideloaded variant keeps original bundle com.atebits.Tweetie2 so it replaces the App Store app. Also available as BHTwitter-trollstore.tipa. v4.4 (2025-05-13).",
+      "iconURL": "https://github.com/BandarHL.png",
+      "category": "social",
+      "versions": [
+        {
+          "version": "4.4",
+          "date": "2025-05-13T20:33:01Z",
+          "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+          "size": 167001383,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Tweaked Twitter with ad-block, media downloads and premium unlock."
+        }
+      ],
+      "tintColor": "#1DA1F2"
+    },
+    {
+      "name": "LBox",
+      "bundleIdentifier": "Lolendor.LBox",
+      "developerName": "Lolendor",
+      "subtitle": "SwiftUI repo manager for LiveContainer (NEW 2025)",
+      "localizedDescription": "LBox is a native SwiftUI companion for LiveContainer — browse public sources, search and download IPAs, and install/launch apps directly on device with seamless LiveContainer integration. MIT, fully SwiftUI, newest value app on the source (v1.2 — 2025-12-08). Perfect pairing with LiveContainer + SideStore.",
+      "iconURL": "https://github.com/Lolendor.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.2",
+          "date": "2025-12-08T02:13:43Z",
+          "downloadURL": "https://github.com/Lolendor/LBox/releases/download/v1.2/LBox.ipa",
+          "size": 614768,
+          "minOSVersion": "15.0",
+          "localizedDescription": "SwiftUI repository manager for LiveContainer — browse, download and launch IPAs."
+        }
+      ],
+      "tintColor": "#5856D6"
+    },
+    {
+      "name": "Apollo (Patched)",
+      "bundleIdentifier": "com.christianselig.Apollo",
+      "developerName": "ichitaso (ApolloPatcher)",
+      "subtitle": "Reddit's Apollo — revived with custom API key (tweaked)",
+      "localizedDescription": "Apollo was sunset in 2023 — ApolloPatcher revives it by patching your own Reddit API key at runtime. This sideloaded IPA (Apollo 1.15.11 patched with 0.1.0) restores the best Reddit client on iOS. GPL-3.0, fully open patcher. You supply your own client ID/secret in settings. For fans of the classic Apollo experience.",
+      "iconURL": "https://github.com/ichitaso.png",
+      "category": "social",
+      "versions": [
+        {
+          "version": "1.15.11-0.1.0",
+          "date": "2026-02-18T11:15:37Z",
+          "downloadURL": "https://github.com/ichitaso/ApolloPatcher/releases/download/v0.1.0/Apollo-1.15.11_ApolloPatcher_0.1.0.ipa",
+          "size": 111555956,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Revived Apollo with configurable Reddit API key — bring your own credentials."
+        }
+      ],
+      "tintColor": "#FF4500"
+    },
+    {
+      "name": "Cowabunga",
+      "bundleIdentifier": "com.leemin.Cowabunga",
+      "developerName": "leminlimez",
+      "subtitle": "iOS 14-16.1.2 MacDirtyCow toolbox — themes, tweaks, no jailbreak",
+      "localizedDescription": "Cowabunga is the legendary MacDirtyCow toolbox for iOS 14.0-15.7.1 & 16.0-16.1.2: custom themes, icon theming, status bar tweaks, dock & folder mods and more without a jailbreak. GPL-3.0. v10.3.2 is the last stable IPA before KFD. A must-have for theming on supported versions.",
+      "iconURL": "https://github.com/leminlimez.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "10.3.2",
+          "date": "2023-05-29T20:49:25Z",
+          "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
+          "size": 16288960,
+          "minOSVersion": "14.0",
+          "localizedDescription": "MacDirtyCow toolbox for iOS 14-16.1.2 — theming & system tweaks without jailbreak."
+        }
+      ],
+      "tintColor": "#30D158"
+    },
+    {
+      "name": "Misaka",
+      "bundleIdentifier": "com.straighttamago.misaka",
+      "developerName": "straight-tamago",
+      "subtitle": "iOS & tvOS customisation for KFD & MDC — successor to Cowabunga",
+      "localizedDescription": "Misaka is the modern successor to Cowabunga supporting both KFD (kfd) and MDC exploits for iOS & tvOS customisation: themes, tweaks, PiP, always-on-display and more. MIT, 2.7k stars. v8.2.4 (2024-01-20) is the latest stable sideloadable IPA — broader device support than Cowabunga.",
+      "iconURL": "https://github.com/straight-tamago.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "8.2.4",
+          "date": "2024-01-20T04:49:47Z",
+          "downloadURL": "https://github.com/straight-tamago/misaka/releases/download/8.2.4/misaka-v8.2.4.ipa",
+          "size": 30742697,
+          "minOSVersion": "15.0",
+          "localizedDescription": "KFD & MDC customisation tool — themes, tweaks for iOS/tvOS."
+        }
+      ],
+      "tintColor": "#BF5AF2"
+    },
+    {
+      "name": "Paperback",
+      "bundleIdentifier": "com.paperback.ios",
+      "developerName": "Paperback-iOS",
+      "subtitle": "Manga reader — extensions, tracking & downloads",
+      "localizedDescription": "Paperback is a modern, SwiftUI manga/comic reader for iOS with extension-based sources, library tracking, offline downloads and reader customisation. 775 stars, active 2025-05-20 release. The go-to open-source Tachiyomi-style app for iOS. v0.8.11-r2 is the latest sideloadable IPA.",
+      "iconURL": "https://github.com/Paperback-iOS.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.8.11-r2",
+          "date": "2025-05-20T13:56:35Z",
+          "downloadURL": "https://github.com/Paperback-iOS/app/releases/download/v0.8.11-r2/Paperback.ipa",
+          "size": 13597210,
+          "minOSVersion": "15.0",
+          "localizedDescription": "Manga reader with extensions — track, download and read offline."
+        }
+      ],
+      "tintColor": "#FF9F0A"
+    },
+    {
+      "name": "DebToIPA",
+      "bundleIdentifier": "net.sourceloc.DebToIPA",
+      "developerName": "sourcelocation",
+      "subtitle": "Convert .deb tweaks to .ipa on-device (SwiftUI)",
+      "localizedDescription": "DebToIPA converts jailbreak .deb packages into sideloadable .ipa files directly on iOS — locally, no PC. GPL-3.0, SwiftUI, essential companion for BHTwitter/Apollo and any deb-based tweak. v1.1.1 is the latest Release IPA.",
+      "iconURL": "https://github.com/sourcelocation.png",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "1.1.1",
+          "date": "2022-10-18T21:37:30Z",
+          "downloadURL": "https://github.com/sourcelocation/DebToIPA/releases/download/1.1.1/DebToIPA-1.1.1.ipa",
+          "size": 1238055,
+          "minOSVersion": "13.0",
+          "localizedDescription": "Convert .deb to .ipa on-device — tweak installer helper."
+        }
+      ],
+      "tintColor": "#0A84FF"
+    },
+    {
+      "name": "ModMyIPA",
+      "bundleIdentifier": "com.powen.ModMyIPA",
+      "developerName": "powenn",
+      "subtitle": "Duplicate any IPA — install multiple copies side-by-side",
+      "localizedDescription": "ModMyIPA lets you modify an IPA's bundle ID so you can install multiple copies of the same app side-by-side (handy for dual accounts, testing tweaked variants). Swift-based, 539 stars. v1.0.2 latest Release IPA.",
+      "iconURL": "https://github.com/powenn.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2022-10-26T07:34:08Z",
+          "downloadURL": "https://github.com/powenn/ModMyIPA/releases/download/1.0.2/ModMyIPA-1.0.2.ipa",
+          "size": 2447058,
+          "minOSVersion": "13.0",
+          "localizedDescription": "Modify IPA bundle ID to install duplicates of any app."
+        }
+      ],
+      "tintColor": "#64D2FF"
+    },
+    {
+      "name": "Azula",
+      "bundleIdentifier": "com.paisseon.Azula",
+      "developerName": "Paisseon",
+      "subtitle": "Inject dylibs into IPAs on-device (SwiftUI + ElleKit)",
+      "localizedDescription": "Azula injects dynamic libraries (dylibs) into any IPA directly on iOS 14-16 / macOS 11-13 — the on-device alternative to Azule/Insert_dylib. AGPL-3.0, SwiftUI, handy for patching BHTwitter, Apollo, etc. v1.0.1 latest Release IPA (also has macOS dmg).",
+      "iconURL": "https://github.com/Paisseon.png",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2023-03-16T20:43:47Z",
+          "downloadURL": "https://github.com/Paisseon/Azula/releases/download/v1.0.1/Azula.ipa",
+          "size": 1532047,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Inject dylibs into IPAs on-device — tweak patcher."
+        }
+      ],
+      "tintColor": "#5E5CE6"
+    },
+    {
+      "name": "AppDB",
+      "bundleIdentifier": "it.ned.appdb-ios",
+      "developerName": "n3d1117",
+      "subtitle": "Full client for appdb.to — sideloaded apps database",
+      "localizedDescription": "AppDB is the fully-featured iOS client for appdb.to — browse, search, crack and install thousands of sideloaded IPAs with custom store management. Swift 5, MIT, 351 stars. v1.1.6 is the latest Release IPA (stev3fvcks build). Your portal to the wider sideloading ecosystem.",
+      "iconURL": "https://github.com/n3d1117.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.1.6",
+          "date": "2023-08-24T09:47:30Z",
+          "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.6/appdb-v1.1.6-stev3fvcks.ipa",
+          "size": 23229778,
+          "minOSVersion": "12.0",
+          "localizedDescription": "Full-featured appdb.to client — browse and install cracked IPAs."
+        }
+      ],
+      "tintColor": "#FF3B30"
+    },
+    {
+      "name": "Mirarr",
+      "bundleIdentifier": "com.example.Mirarr",
+      "developerName": "Mirarr App",
+      "subtitle": "FOSS movie & TV app — watch movies and TV shows",
+      "localizedDescription": "Mirarr is a free and open-source movie & TV app that simplifies watching movies and TV shows. Cross-platform Flutter app for iOS, Android, Windows, Linux and Web. This is the official unsigned GitHub Release IPA (v3.3.2), ready for Sidestore signing. 850+ stars.",
+      "iconURL": "https://github.com/mirarr-app.png",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "3.3.2",
+          "date": "2026-07-27T16:03:41Z",
+          "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.2/mirarr.ipa",
+          "size": 11717881,
+          "minOSVersion": "13.0",
+          "localizedDescription": "Official Mirarr v3.3.2 Release IPA (unsigned, Sidestore-signable). See release notes on GitHub."
+        }
+      ],
+      "tintColor": "#E50914"
+    }
+  ],
+  "news": []
+}
