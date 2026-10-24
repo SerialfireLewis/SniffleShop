@@ -13,7 +13,11 @@
     "com.stik.stikdebug",
     "org.ppsspp.ppsspp-free",
     "com.jevonlipsey.pocket8",
-    "com.SideStore.SideStore"
+    "com.SideStore.SideStore",
+    "com.armsx2.ios",
+    "com.aoshuang.manicemu",
+    "app.aidoku.Aidoku",
+    "com.mak5er.aircard"
   ],
   "apps": [
     {
@@ -838,6 +842,711 @@
         }
       ],
       "tintColor": "#E50914"
+    },
+    {
+      "name": "AirCard-iOS",
+      "bundleIdentifier": "com.mak5er.aircard",
+      "developerName": "Mak5er",
+      "subtitle": "Apple Wallet card skins, passcode themes and wallpapers",
+      "localizedDescription": "Customize Apple Wallet card artwork, lock screen passcode dialers and PosterBoard wallpapers directly on device, without a jailbreak. Requires iOS 27 or newer, LocalDevVPN running in loopback mode, and Developer Mode pairing.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/AirCard/icon.png",
+      "tintColor": "#5020E0",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.3.2",
+          "date": "2026-10-04",
+          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.2/AirCard-iOS.ipa",
+          "size": 4638147,
+          "minOSVersion": "27.0"
+        }
+      ]
+    },
+    {
+      "name": "AniBaka",
+      "bundleIdentifier": "ani.baka",
+      "developerName": "AniBakaBaka",
+      "subtitle": "跨平台番剧聚合、媒体播放与弹幕客户端",
+      "localizedDescription": "AniBaka 是一个基于 Flutter 的跨平台番剧聚合与媒体播放客户端，支持多番剧源、弹幕、字幕、离线缓存与本地媒体库，并提供动漫实时超分辨率画质增强。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/AniBaka/icon.png",
+      "tintColor": "#0077B6",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "5.2.3",
+          "date": "2026-10-21",
+          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.3%2B1020/baka-5.2.3%2B1020-ios-unsigned.ipa",
+          "size": 23775885,
+          "buildVersion": "1020",
+          "minOSVersion": "13.0"
+        }
+      ]
+    },
+    {
+      "name": "AnimeFlow",
+      "bundleIdentifier": "com.ligg.anime_flow",
+      "developerName": "openAnimeFlow",
+      "subtitle": "跨平台动漫视频播放器，支持多数据源、实时 4K 超分辨率与弹幕",
+      "localizedDescription": "AnimeFlow 是一个跨平台动漫视频播放应用，支持 Android、iOS、Windows、macOS 与 Linux。内置多数据源与自定义 XPath 爬虫配置，支持基于 Anime4K 的实时视频 4K 超分辨率，对接 Bangumi 同步收藏与追番数据，并支持多平台弹幕源与丰富的弹幕设置。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/AnimeFlow/icon.png",
+      "tintColor": "#124EB3",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.6.4",
+          "date": "2026-10-18",
+          "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.4/AnimeFlow-ios-2.6.4.ipa",
+          "size": 29497158,
+          "minOSVersion": "13.0"
+        }
+      ]
+    },
+    {
+      "name": "Animeko",
+      "bundleIdentifier": "org.animeko.animeko",
+      "developerName": "open-ani",
+      "subtitle": "一站式弹幕追番平台",
+      "localizedDescription": "Animeko 是一个 Kotlin/Compose Multiplatform 打造的一站式弹幕追番平台，集找番、追番、看番于一体，支持 Bangumi 云同步观看记录、多视频数据源聚合（含 BitTorrent、Jellyfin、Emby）、离线缓存与弹幕云过滤。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Animeko/icon.png",
+      "tintColor": "#0050A0",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "6.4.0",
+          "date": "2026-10-24",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0.ipa",
+          "size": 48615547,
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "ARMSX2",
+      "bundleIdentifier": "com.armsx2.ios",
+      "developerName": "ARMSX2",
+      "subtitle": "PlayStation 2 emulator for ARM64",
+      "localizedDescription": "A free and open-source PlayStation 2 (PS2) emulator based on PCSX2, with native ARM64 JIT recompilers. Play PS2 games on your phone, PC, or gaming handheld.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/ARMSX2/icon.png",
+      "tintColor": "#3CAEFF",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2.6.0-nightly.20261023.1332",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261023/ARMSX2-nightly-20261023-90126bdfea-iOS-arm64.ipa",
+          "size": 40376158,
+          "minOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "BCD",
+      "bundleIdentifier": "com.thebcd69.bcd",
+      "developerName": "thebcd69",
+      "subtitle": "Windows games on iPhone and iPad",
+      "localizedDescription": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in, powered by Wine, FEX and Metal via DXMT.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/BCD/icon.png",
+      "tintColor": "#F070F0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.600",
+          "date": "2026-10-24",
+          "downloadURL": "https://github.com/thebcd69/bcd-games/releases/download/v0.1.600/BCD.ipa",
+          "size": 170096564,
+          "minOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "Doer",
+      "bundleIdentifier": "com.naine.doer",
+      "developerName": "moliango",
+      "subtitle": "A native iOS client for Linux.do",
+      "localizedDescription": "A native iOS client for Linux.do — UIKit + Swift, no SwiftUI in the main app.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Doer/icon.png",
+      "tintColor": "#4080E0",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.8.6",
+          "date": "2026-10-10",
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.6/doer-unsigned.ipa",
+          "size": 28095758,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "DolphiniOS",
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+      "developerName": "OatmealDome",
+      "subtitle": "GameCube and Wii emulator for iOS/iPadOS",
+      "localizedDescription": "Dolphin for iOS, reborn. A GameCube and Wii emulator for iPhone and iPad.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/DolphiniOS/icon.png",
+      "tintColor": "#E0B030",
+      "category": "games",
+      "versions": [
+        {
+          "version": "5.0.0b6",
+          "date": "2026-06-20",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+          "size": 17963367,
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "DukeX",
+      "bundleIdentifier": "com.mafty.dukex",
+      "developerName": "Manic EMU Development Team",
+      "subtitle": "Original Xbox emulation for iOS",
+      "localizedDescription": "DukeX is an experimental iOS-focused frontend for xemu. It embeds the xemu core in a native Swift shell and presents the Vulkan renderer through MoltenVK and native Metal.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/DukeX/icon.png",
+      "tintColor": "#8FCA39",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-06-30",
+          "downloadURL": "https://github.com/MaftyManicEMU/DukeX/releases/download/v1.0.2/DukeX.v1.0.2.ipa",
+          "size": 20345841,
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "EhPanda",
+      "bundleIdentifier": "app.ehpanda",
+      "developerName": "EhPanda-Team",
+      "subtitle": "An unofficial E-Hentai App for iOS built with SwiftUI & TCA",
+      "localizedDescription": "EhPanda is an unofficial E-Hentai app for iOS & iPadOS built with SwiftUI & TCA. It supports almost all E-Hentai gallery categories, gallery browsing with filters, gallery details with tags & related galleries, posting / editing / replying to comments, H@H archiving, torrent listing, E-Hentai settings, and SNI-bypass (domain fronting) for restricted networks. Localization is built in and the app icon and accent color are customizable.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/EhPanda/icon.png",
+      "tintColor": "#0f766e",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.8.1",
+          "date": "2026-07-20",
+          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.8.1/EhPanda.ipa",
+          "size": 7352364,
+          "minOSVersion": "26.0"
+        }
+      ]
+    },
+    {
+      "name": "Fathom",
+      "bundleIdentifier": "app.fathom.emulator",
+      "developerName": "Leviidev",
+      "subtitle": "x86-64 PC emulator for iOS",
+      "localizedDescription": "An x86-64 PC emulator for iOS. Fathom runs x86-64 Linux programs on an iPhone or iPad by translating them to ARM64 as they execute, using FEXCore - the dynamic recompiler behind FEX-Emu - with a native SwiftUI front end. Import a statically linked x86-64 Linux executable, open it, press Run. Fathom maps it into a guest address space, hands its instructions to FEXCore's JIT, answers its Linux syscalls, and shows you its output. JIT requires StikDebug to attach to the process and service the executable-memory traps; Fathom asks for this automatically on launch when it is missing. Please note: only statically linked, position-independent executables (-static-pie) run today. Dynamically linked binaries and 32-bit x86 are not supported yet, and threads are not implemented, so a guest runs single-threaded.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Fathom/icon.png",
+      "tintColor": "#68D8D8",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-14",
+          "downloadURL": "https://github.com/Leviidev/Fathom/releases/download/v1.0.0/Fathom.ipa",
+          "size": 1175175,
+          "minOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "Husk",
+      "bundleIdentifier": "com.husk.app",
+      "developerName": "Leviidev",
+      "subtitle": "Android app launcher for iOS",
+      "localizedDescription": "Run Android apps on iOS: drop in an APK, tap it, and the Android app opens full-screen on a QEMU guest with hardware-accelerated display and audio. Needs JIT plus a debugger attached at runtime, so it requires a sideloading setup that can provide get-task-allow rather than a plain re-sign.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Husk/icon.png",
+      "tintColor": "#5949E5",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "3.0",
+          "date": "2026-10-17",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.0/Husk.ipa",
+          "size": 140126095,
+          "minOSVersion": "16.4"
+        }
+      ]
+    },
+    {
+      "name": "Iridium",
+      "bundleIdentifier": "software.iridium",
+      "developerName": "intraducine",
+      "subtitle": "Experimental Windows-game runtime for iPhone and iPad",
+      "localizedDescription": "An experimental iPhone and iPad Windows-game runtime, with a native game library and touch, keyboard, mouse, and controller integration. Requires iOS 18+, JIT, and your own game files; compatibility varies by game and device.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Iridium/icon.png",
+      "tintColor": "#1C1C1E",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-10-04",
+          "downloadURL": "https://github.com/intraducine/iridium/releases/download/v0.2.0/Iridium-unsigned.ipa",
+          "size": 399916792,
+          "minOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "Kazumi",
+      "bundleIdentifier": "com.example.kazumi",
+      "developerName": "Predidit",
+      "subtitle": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "localizedDescription": "使用 Flutter 开发的基于自定义规则的番剧采集与在线观看程序。使用最多五行基于 Xpath 语法的选择器构建自己的规则，支持规则导入与规则分享，支持基于 Anime4K 的实时超分辨率。 其他特性：番剧目录与搜索、分集播放、番剧弹幕、追番列表、历史记录、倍速播放、多视频源支持、配色方案等。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Kazumi/icon.png",
+      "tintColor": "#4CAF50",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.4.2",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.2/Kazumi_ios_2.4.2_no_sign.ipa",
+          "size": 30521004,
+          "minOSVersion": "13.0"
+        }
+      ]
+    },
+    {
+      "name": "KMusic",
+      "bundleIdentifier": "com.macxk.KMusic",
+      "developerName": "Mac-XK",
+      "subtitle": "基于 SwiftUI 的多源音乐聚合播放器",
+      "localizedDescription": "基于 SwiftUI 开发的多源音乐聚合播放器，支持 iOS/macOS。内置酷我、酷狗、QQ 音乐、网易云、咪咕等多平台音源，支持 LRC 歌词同步、全局搜索、后台播放与深色主题，并可通过 JS 脚本导入自定义音源。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/KMusic/icon.png",
+      "tintColor": "#F03050",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.3.0",
+          "date": "2026-03-12",
+          "downloadURL": "https://github.com/Mac-XK/KMusic/releases/download/%E6%AD%8C%E4%B8%80%E5%88%802.3.0/_2.3.0_22.2.ipa",
+          "size": 3836900,
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "Kumone",
+      "bundleIdentifier": "sb.moe.kumone",
+      "developerName": "missuo",
+      "subtitle": "原生 NetEase Cloud Music iOS 客户端（雲の音）",
+      "localizedDescription": "Kumone（雲の音）— native NetEase Cloud Music client for iOS. Talks directly to NetEase's real API with no third-party server: QR-code login, gray-track unblocking, synced lyrics with translation, immersive artwork-tinted now-playing, and playlist management. Supports English and Simplified Chinese localization.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Kumone/icon.png",
+      "tintColor": "#F0D060",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.3.21",
+          "date": "2026-10-19",
+          "downloadURL": "https://github.com/missuo/kumone/releases/download/v0.3.21/Kumone-iOS-0.3.21.ipa",
+          "size": 8725929,
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "Madeira",
+      "bundleIdentifier": "com.willfaust.madeora",
+      "developerName": "Will Faust",
+      "subtitle": "Windows PC games on your iPhone",
+      "localizedDescription": "Madeira runs unmodified x86-64 Windows PC games inside a single jailed iOS app: FEX-Emu translates the game's x86 code to ARM64 as it runs, Wine 11.4 built for ARM64EC provides Windows itself, and DXMT plus Madeira's own Direct3D 12 runtime draw Direct3D 9, 10, 11 and 12 through Metal. Games come with a library, Steam sign-in and installs, controller and touch controls, and keyboard, mouse and trackpad input. Requires an iPhone on iOS 26 or later with JIT enabled through StikDebug.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Madeira/icon.png",
+      "tintColor": "#7B68EE",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "0.1.3",
+          "date": "2026-10-03",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.3/Madeira-0.1.3.ipa",
+          "size": 145554426,
+          "minOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "Mangayomi",
+      "bundleIdentifier": "com.kodjodevf.mangayomi",
+      "developerName": "Moustapha Kodjo Amadou",
+      "subtitle": "Read manga, novels, and watch anime",
+      "localizedDescription": "Mangayomi is an open-source Flutter app for reading manga, novels, and watching anime across multiple platforms.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Mangayomi/icon.png",
+      "tintColor": "#EF4444",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.9.9",
+          "date": "2026-10-12",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
+          "size": 114603425
+        }
+      ]
+    },
+    {
+      "name": "ManicEMU",
+      "bundleIdentifier": "com.aoshuang.manicemu",
+      "developerName": "Manic EMU Development Team",
+      "subtitle": "All-in-one retro game emulator for iOS",
+      "localizedDescription": "All-in-one retro game emulator for iOS, bringing console, arcade, computer, and mobile Java systems into one clean app with saves, cheats, custom skins, RetroAchievements, and more.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/ManicEMU/icon.png",
+      "tintColor": "#F02040",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2.0.1",
+          "date": "2026-09-18",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
+          "size": 288525117,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "MiniWatts",
+      "bundleIdentifier": "org.zhaohe.MiniWatts",
+      "developerName": "ResistanceTo",
+      "subtitle": "Battery, charging and thermal instrument",
+      "localizedDescription": "An iPhone battery and charging monitor built on Apple's private APIs: the charger's real watts, how much of that reaches the cell, where the rest goes as heat, and every temperature sensor in the phone. No network code — nothing it reads leaves your phone.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/MiniWatts/icon.png",
+      "tintColor": "#30E0F0",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.5.1",
+          "date": "2026-10-13",
+          "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.5.1/MiniWatts-unsigned.ipa",
+          "size": 3305290,
+          "minOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "MoviePilotLite",
+      "bundleIdentifier": "com.altman.moviepilot",
+      "developerName": "singleton-altman",
+      "subtitle": "MoviePilot 移动端，基于 Flutter 实现",
+      "localizedDescription": "基于 MoviePilot 的 Flutter 跨端客户端，对接 MoviePilot v2 API，在手机上完成订阅、搜索、下载、整理与系统运维等常用操作。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/MoviePilotLite/icon.png",
+      "tintColor": "#8050F0",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.2.6",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/singleton-altman/MoviePilotLite/releases/download/release-v1.2.6-2026-10-23/ios-v1.2.6-2026-10-23.ipa",
+          "size": 37329880,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Musly",
+      "bundleIdentifier": "com.dddevid.musly",
+      "developerName": "dddevid",
+      "subtitle": "Free Navidrome client & Subsonic music player",
+      "localizedDescription": "Musly is a free Navidrome client and Subsonic music player with an Apple Music-inspired interface. Stream your self-hosted library from Navidrome, Subsonic, or Airsonic servers on iOS, Android, desktop, and more.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Musly/icon.png",
+      "tintColor": "#FA243C",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.0.3",
+          "date": "2026-10-18",
+          "downloadURL": "https://github.com/dddevid/Musly/releases/download/v2.0.3/musly-ios.ipa",
+          "size": 14317899,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "NeoStation iOS",
+      "bundleIdentifier": "com.neogamelab.neostation",
+      "developerName": "TarbleFR",
+      "subtitle": "Emulation frontend for iPhone and iPad",
+      "localizedDescription": "An independently maintained iOS/iPadOS fork of NeoStation, with embedded Dolphin, ARMSX2, RPCS3, Dusklight and KartPad runtimes alongside RetroArch and MeloNX integration, JIT workflows and mobile-friendly game and session management.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/NeoStation/icon.png",
+      "tintColor": "#01E989",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.0.8",
+          "date": "2026-10-18",
+          "downloadURL": "https://github.com/TarbleFR/RewindBox/releases/download/0.0.8/RewindBox-0.0.8.ipa",
+          "size": 226570105,
+          "minOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "Novella",
+      "bundleIdentifier": "sh.celia.novella",
+      "developerName": "CELIA",
+      "subtitle": "轻书架第三方客户端",
+      "localizedDescription": "使用 React Native 构建的轻书架第三方客户端，面向 iOS、iPadOS。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Novella/icon.png",
+      "tintColor": "#2E2E2E",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.6.0",
+          "date": "2026-10-20",
+          "downloadURL": "https://github.com/celia-sh/Novella/releases/download/v2.6.0/Novella-2.6.0-release.ipa",
+          "size": 29979710,
+          "minOSVersion": "16.4"
+        }
+      ]
+    },
+    {
+      "name": "Opaline",
+      "bundleIdentifier": "com.verback.YTLite",
+      "developerName": "verback2308",
+      "subtitle": "YouTube client for iOS 12+",
+      "localizedDescription": "A lightweight YouTube client with SponsorBlock, Return YouTube Dislike, and up to 1080p playback. No ads, no tracking, no dependencies.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Opaline/icon.png",
+      "tintColor": "#FF0000",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.12.0",
+          "date": "2026-09-10",
+          "downloadURL": "https://github.com/verback2308/Opaline/releases/download/1.12.0/Opaline_1.12.0.ipa",
+          "size": 6685919,
+          "minOSVersion": "12.0"
+        }
+      ]
+    },
+    {
+      "name": "Orchard",
+      "bundleIdentifier": "com.makr.orchard",
+      "developerName": "MakrSas",
+      "subtitle": "Apple Silicon macOS Ventura running inside an iPhone app",
+      "localizedDescription": "Boots a real arm64 macOS Ventura guest on iPhone through Apple's own chain (AVPBooter, iBoot and XNU) on QEMU's apple-vm machine, with the GPU drawn through Metal by reims-vgpu. Requires JIT, a signing tool that adds the increased memory limit, and a macOS VM you make yourself. It is slow — light scenes reach 30–40 fps at best.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Orchard/icon.png",
+      "tintColor": "#F0C060",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "0.2",
+          "date": "2026-09-25",
+          "downloadURL": "https://github.com/MakrSas/orchard-ios/releases/download/v0.2/Orchard.ipa",
+          "size": 18477287,
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "PiliPlus",
+      "bundleIdentifier": "com.example.piliplus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "使用Flutter开发的BiliBili第三方客户端",
+      "localizedDescription": "使用Flutter开发的BiliBili第三方客户端",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/PiliPlus/icon.png",
+      "tintColor": "#73b480",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.1.6",
+          "date": "2026-10-10",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.2/PiliPlus_ios_2.1.6%2B5472.ipa",
+          "size": 24353925,
+          "buildVersion": "5472",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "Pixiv-SwiftUI",
+      "bundleIdentifier": "org.eu.eslzzyl.Pixiv-SwiftUI",
+      "developerName": "Eslzzyl",
+      "subtitle": "基于 SwiftUI 的 Pixiv 第三方客户端",
+      "localizedDescription": "基于 SwiftUI 开发的 Pixiv 第三方客户端，支持 iOS/iPadOS/macOS。提供插画、漫画与小说的推荐、排行榜、搜索与收藏，内置评论系统、批量下载、数据导入导出、深色模式与主题自定义。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Pixiv-SwiftUI/icon.png",
+      "tintColor": "#13A1FD",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.16.3",
+          "date": "2026-10-19",
+          "downloadURL": "https://github.com/Eslzzyl/Pixiv-SwiftUI/releases/download/v0.16.3/Pixiv-SwiftUI.ipa",
+          "size": 10379203,
+          "minOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "Playport",
+      "bundleIdentifier": "dev.playport.app",
+      "developerName": "playportdev",
+      "subtitle": "PC games on your iPhone. Natively, no streaming.",
+      "localizedDescription": "Playport runs Windows games, 64-bit and 32-bit, on a stock, non-jailbroken iPhone: install a game from your library onto the phone, pick up a controller and press Play. The game runs on the phone's own CPU and GPU — no PC, no cloud, no stream. Requires iOS 26 or later with JIT enabled through LocalDevVPN or StikDebug.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Playport/icon.png",
+      "tintColor": "#F5B544",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.4.0",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/playportdev/playport/releases/download/v0.4.0/Playport-0.4.0.ipa",
+          "size": 672450129,
+          "minOSVersion": "26.0"
+        }
+      ]
+    },
+    {
+      "name": "PSX3IOS",
+      "bundleIdentifier": "com.miguel.psx3ios",
+      "developerName": "xmiguel911x",
+      "subtitle": "PlayStation 3 emulator for iPhone and iPad",
+      "localizedDescription": "A PlayStation 3 emulator for iPhone and iPad, built on RPCS3. Real games boot and play — the whole emulator core is exposed, with community game patches, trophies, play time, save data and 14 languages. Works with or without JIT.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/PSX3IOS/icon.png",
+      "tintColor": "#5080D0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.2.7-beta",
+          "date": "2026-09-01",
+          "downloadURL": "https://github.com/xmiguel911x/PSX3IOS/releases/download/v0.2.7-beta/PSX3IOS-beta.0.2.7-unsigned.ipa",
+          "size": 67644766,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Roam Control",
+      "bundleIdentifier": "com.sean.roamcontrol",
+      "developerName": "seanhowarthdev",
+      "subtitle": "Choose, test and move your iPhone's reported location",
+      "localizedDescription": "Set a fixed reported location, preview and simulate Apple Maps walking routes, and save favourites and history — all from one map. Requires iOS 27 or newer, and guided LocalDevVPN-compatible sessions for Wi-Fi and mobile data.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Roam-Control/icon.png",
+      "tintColor": "#1090F0",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.9.9",
+          "date": "2026-10-20",
+          "downloadURL": "https://github.com/seanhowarthdev/Roam-Control/releases/download/v0.9.9/RoamControl-0.9.9-Build105.ipa",
+          "size": 4627321,
+          "minOSVersion": "27.0"
+        }
+      ]
+    },
+    {
+      "name": "SceneBox",
+      "bundleIdentifier": "app.scenebox.SceneBox",
+      "developerName": "donbytyqi",
+      "subtitle": "Torrent streaming client",
+      "localizedDescription": "Torrent streaming client for iOS, iPadOS, tvOS and Mac (Catalyst), written in SwiftUI. Streams come from Stremio-compatible addons and play through a vendored libtorrent engine feeding VLC.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/SceneBox/icon.png",
+      "tintColor": "#E0E000",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.0.4",
+          "date": "2026-09-23",
+          "downloadURL": "https://github.com/donbytyqi/scenebox/releases/download/v1.0.4/SceneBox-1.0.4.ipa",
+          "size": 30593765,
+          "minOSVersion": "18.0"
+        }
+      ]
+    },
+    {
+      "name": "SpotiFLAC",
+      "bundleIdentifier": "com.zarz.spotiflac",
+      "developerName": "zarzet",
+      "subtitle": "FLAC Downloader for iOS",
+      "localizedDescription": "SpotiFLAC is a Flutter music app built around installable extensions: an extension supplies the metadata and the audio downloads for one provider, so sources can be added or repaired without an app update. Downloads land in a local library with lyrics, cover art, quality badges and duplicate detection.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/SpotiFLAC/icon.png",
+      "tintColor": "#1DB954",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "5.2.6",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/mornyeapp/Mornye/releases/download/v5.2.6/Mornye-v5.2.6-ios-unsigned.ipa",
+          "size": 35645397,
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "TiebaPure",
+      "bundleIdentifier": "dev.infinityf4p.tiebapure",
+      "developerName": "infinityf4p",
+      "subtitle": "基于 SwiftUI 的第三方百度贴吧客户端",
+      "localizedDescription": "原生 SwiftUI 构建的非官方贴吧 iOS 客户端。未登录访客即可浏览首页推荐、进吧与吧内列表、帖子详情与楼中楼、搜索、图片缩放与视频播放；登录后支持消息、关注与粉丝、收藏帖子（与官方客户端同步）、每日签到、点赞与发帖回复。另有关键词/用户/贴吧屏蔽、浏览历史与阅读位置恢复、iPad 双栏布局，以及 `tiebapure://` 深链接。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/TiebaPure/icon.png",
+      "tintColor": "#708070",
+      "category": "social",
+      "versions": [
+        {
+          "version": "1.4.15",
+          "date": "2026-10-10",
+          "downloadURL": "https://github.com/infinityf4p/TiebaPure-iOS/releases/download/v1.4.15/TiebaPure-v1.4.15-unsigned.ipa",
+          "size": 9347637,
+          "minOSVersion": "16.4"
+        }
+      ]
+    },
+    {
+      "name": "Tsumiru",
+      "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
+      "developerName": "Suwayomi",
+      "subtitle": "Native manga & manhwa reader for Suwayomi-Server",
+      "localizedDescription": "Tsumiru is a native client for reading manga & manhwa from a Suwayomi-Server instance, built for long webtoon binges. Offline downloads with an on-device catalog, a rebuilt continuous-scroll webtoon reader, incognito mode, and 13 built-in themes.",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Suwayomi-Tsumiru/icon.png",
+      "tintColor": "#7c7bff",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.5.1",
+          "date": "2026-10-21",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.5.1/tsumiru-v1.5.1-ios.ipa",
+          "size": 17507496,
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "VeneraNext",
+      "bundleIdentifier": "com.github.cyrilpeng.veneranext",
+      "developerName": "CyrilPeng",
+      "subtitle": "跨平台漫画阅读器",
+      "localizedDescription": "基于 Flutter 的跨平台漫画阅读器，支持本地漫画、WebDAV 漫画源与第三方网络漫画源，支持 Android、iOS、Windows、Linux、macOS 平台。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/Venera-Next/icon.png",
+      "tintColor": "#2090E0",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.18.0",
+          "date": "2026-10-14",
+          "downloadURL": "https://github.com/CyrilPeng/Venera-Next/releases/download/v1.18.0/VeneraNext-ios-1.18.0%2B234.ipa",
+          "size": 21127254,
+          "buildVersion": "234",
+          "minOSVersion": "14.0"
+        }
+      ]
+    },
+    {
+      "name": "ZhihuMinusMinus",
+      "bundleIdentifier": "com.huamu013.ZhihuMinusMinus",
+      "developerName": "huamurui",
+      "subtitle": "轻量、纯净的第三方知乎客户端",
+      "localizedDescription": "基于 React Native (Expo) 构建的轻量级第三方知乎客户端，无广告，支持多账号切换、游客模式、全局主题色自定义与深色模式，可查看热榜、推荐、回答、文章、想法与评论区，并支持从 GitHub Releases 自动更新。",
+      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/ZhihuMinusMinus/icon.png",
+      "tintColor": "#0084ff",
+      "category": "social",
+      "versions": [
+        {
+          "version": "0.9.5",
+          "date": "2026-10-24",
+          "downloadURL": "https://github.com/huamurui/zhihu-minus-minus/releases/download/v0.9.5/zhihu-minus-minus-v0.9.5-unsigned.ipa",
+          "size": 14460451,
+          "minOSVersion": "15.1"
+        }
+      ]
     }
   ],
   "news": []
