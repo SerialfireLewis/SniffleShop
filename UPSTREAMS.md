@@ -18,7 +18,7 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | RetroArch | 1.22.2 | https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/ | Minimum iOS 12.0. Official Libretro stable iOS sideload IPA; current upstream release is 1.22.2. |
 | osu! | 1.0 | https://github.com/ppy/osu/releases | Minimum iOS 13.4. Upstream-hosted IPA; review release notes and compatibility before installing. |
 | Aidoku | 0.9 | https://github.com/Aidoku/Aidoku/releases | Minimum iOS 15.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
-| NOOP | 12.0.0 | https://github.com/ryanbr/noop/releases | Minimum iOS 17.0. Official current build; 20 upstream versions retained for rollback (12.0.0 through 8.6.2). |
+| NOOP | 12.0.0 | https://github.com/ryanbr/noop/releases | Minimum iOS 17.0. Official current build; 19 upstream versions retained for rollback (12.0.0 through 8.7.0). |
 | Nyora | 2.7.3 | https://github.com/Nyora-Manga/nyora-ios/releases | Minimum iOS 18.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
 | Stremio | 2.0.7 | https://dl.strem.io/apple/2.0.7b22/ios/stremio_iOS.ipa | Minimum iOS 13.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
 | Sable | 1.21.0 | https://github.com/SableClient/Sable/releases | Minimum iOS 16.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
