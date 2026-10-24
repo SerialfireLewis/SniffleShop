@@ -1547,6 +1547,102 @@
           "minOSVersion": "15.1"
         }
       ]
+    },
+    {
+      "name": "Empo",
+      "bundleIdentifier": "sh.mateo.empo",
+      "developerName": "Mateo M.",
+      "subtitle": "Run RPG Maker and PSDK games on iPhone and iPad.",
+      "localizedDescription": "Empo is a native SwiftUI game library with customizable touch controls. It runs RPG Maker XP, VX, and VX Ace games, modern Pokemon Essentials forks, and PSDK games on the device, with no desktop emulator. Features: - Plays games made for RGSS1 (XP), RGSS2 (VX), RGSS3 (VX Ace), modern mkxp-z forks, and PSDK - Picks the right engine and Ruby version (1.8, 1.9, 3.0, 3.1) for each game - Imports games from folders, .zip, .7z, .rar, and JoiPlay's .jgp format - Customizable on-screen D-pad and action buttons, with per-game layouts - Pause and resume from the library with a hero zoom transition - Library with sort, search, grid/list views, and bulk delete",
+      "iconURL": "https://raw.githubusercontent.com/mateo-m/empo-app/main/docs/media/empo-icon.png",
+      "tintColor": "#FA8F29",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.8.1",
+          "date": "2026-10-24",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.8.1/Empo-0.8.1-unsigned.ipa",
+          "size": 66261834,
+          "buildVersion": "770",
+          "minOSVersion": "26.0"
+        }
+      ]
+    },
+    {
+      "name": "Artemis",
+      "bundleIdentifier": "com.github.auties00.artemis",
+      "developerName": "Auties00",
+      "subtitle": "Alternative client for HIDIVE",
+      "localizedDescription": "Artemis is an alternative and open source streaming client for HIDIVE",
+      "iconURL": "https://github.com/Auties00/Artemis/blob/main/Artemis/Assets.xcassets/AppIcon.appiconset/appstore.png?raw=true",
+      "tintColor": "0A84FF",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "3.0",
+          "date": "2024-10-31",
+          "downloadURL": "https://github.com/Auties00/Artemis/releases/download/3.0-19/Artemis.ipa",
+          "size": 2839462,
+          "minOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "developerName": "Provenance Emu",
+      "subtitle": "Multi-system emulator frontend for iOS/tvOS",
+      "localizedDescription": "The most complete iOS/tvOS frontend - Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony systems via one app. Supports 3.3.0 with iCloud sync, revamped tvOS UI, video filters. Build config: org.provenance-emu.provenance. Wiki: https://wiki.provenance-emu.com",
+      "iconURL": "https://github.com/Provenance-Emu.png",
+      "tintColor": "2B4C7E",
+      "category": "games",
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+          "size": 1076407494,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "PPSSPP",
+      "bundleIdentifier": "org.ppsspp.ppsspp-free",
+      "developerName": "Henrik Rydgard",
+      "subtitle": "PSP emulator (iOS, Android, Desktop)",
+      "localizedDescription": "The premiere PSP emulator - play your PSP ISOs on iOS with Vulkan/Metal, save states, networking and cheats. GPL-2.0+. Bundle ID org.ppsspp.ppsspp-free verified from ios/PPSSPP-Info.plist. 1.20.4 is latest iOS IPA.",
+      "iconURL": "https://github.com/hrydgard.png",
+      "tintColor": "1ABC9C",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.20.4",
+          "date": "2026-05-16",
+          "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+          "size": 31124277,
+          "minOSVersion": "12.0"
+        }
+      ]
+    },
+    {
+      "name": "PojavLauncher",
+      "bundleIdentifier": "net.kdt.pojavlauncher",
+      "developerName": "PojavLauncherTeam",
+      "subtitle": "Minecraft: Java Edition on iOS (Swift/ObjC + Java)",
+      "localizedDescription": "Run Minecraft Java Edition natively on iOS — full Java runtime, mod & Fabric/Forge support, touch controls and controller. GPL-3.0. Successor Amethyst-iOS is in dev, but this 2.2 IPA (2023-05-06) remains the last stable sideloadable build and still brings unique value. Requires JIT for best performance (pair with StikDebug).",
+      "iconURL": "https://github.com/PojavLauncherTeam.png",
+      "tintColor": "62B47A",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2.2",
+          "date": "2023-05-06",
+          "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.2/net.kdt.pojavlauncher-2.2-ios.ipa",
+          "size": 108175347,
+          "minOSVersion": "14.0"
+        }
+      ]
     }
   ],
   "news": []
