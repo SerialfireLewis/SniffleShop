@@ -388,8 +388,8 @@
       "name": "NOOP",
       "bundleIdentifier": "com.noopapp.noop",
       "developerName": "NoopApp",
-      "subtitle": "Offline WHOOP strap companion",
-      "localizedDescription": "NOOP is an independent open-source companion for a WHOOP 4.0, 5.0, or MG strap you own. It talks directly to the strap over Bluetooth, works without the WHOOP app or cloud, and computes its own on-device activity scores.",
+      "subtitle": "Read your own WHOOP strap, fully offline.",
+      "localizedDescription": "NOOP talks to a WHOOP 4.0 / 5.0 / MG strap you own directly over Bluetooth — no WHOOP app, no subscription, no cloud. Live heart rate, history sync, and NOOP's own Charge / Effort / Rest scores, all computed on-device and stored only on your iPhone. Independent and experimental; not affiliated with WHOOP. Source: https://github.com/ryanbr/noop",
       "iconURL": "https://github.com/ryanbr/noop/raw/main/Strand/Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
       "tintColor": "#44E2B0",
       "category": "utilities",
@@ -401,13 +401,166 @@
       ],
       "versions": [
         {
+          "version": "12.0.0",
+          "buildVersion": "435",
+          "date": "2026-10-04",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v12.0.0/NOOP-ios-unsigned-v12.0.0.ipa",
+          "size": 21936724,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 12.0.0. See the release notes for what changed."
+        },
+        {
+          "version": "11.8.0",
+          "buildVersion": "400",
+          "date": "2026-09-17",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.8.0/NOOP-ios-unsigned-v11.8.0.ipa",
+          "size": 21442326,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 11.8.0. See the release notes for what changed."
+        },
+        {
+          "version": "11.7.0",
+          "buildVersion": "387",
+          "date": "2026-09-14",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.7.0/NOOP-ios-unsigned-v11.7.0.ipa",
+          "size": 20280838,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 11.7.0. See the release notes for what changed."
+        },
+        {
+          "version": "11.6.0",
+          "buildVersion": "371",
+          "date": "2026-09-11",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.6.0/NOOP-ios-unsigned-v11.6.0.ipa",
+          "size": 20179424,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 11.6.0. See the release notes for what changed."
+        },
+        {
           "version": "11.5.0",
           "buildVersion": "356",
           "date": "2026-09-09",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.5.0/NOOP-ios-unsigned-v11.5.0.ipa",
           "size": 19998667,
           "minOSVersion": "17.0",
-          "localizedDescription": "Current official sideload build of NOOP 11.5.0."
+          "localizedDescription": "NOOP 11.5.0. See the release notes for what changed."
+        },
+        {
+          "version": "11.1.0",
+          "buildVersion": "299",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.1.0/NOOP-ios-unsigned-v11.1.0.ipa",
+          "size": 19387496,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 11.1.0. See the release notes for what changed."
+        },
+        {
+          "version": "11.0.0",
+          "buildVersion": "292",
+          "date": "2026-09-01",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.0.0/NOOP-ios-unsigned-v11.0.0.ipa",
+          "size": 19362325,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 11.0.0. See the release notes for what changed."
+        },
+        {
+          "version": "10.6.0",
+          "buildVersion": "241",
+          "date": "2026-08-25",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v10.6.0/NOOP-ios-unsigned-v10.6.0.ipa",
+          "size": 19019520,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 10.6.0. See the release notes for what changed."
+        },
+        {
+          "version": "10.5.0",
+          "buildVersion": "230",
+          "date": "2026-08-20",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v10.5.0/NOOP-ios-unsigned-v10.5.0.ipa",
+          "size": 18867317,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 10.5.0. See the release notes for what changed."
+        },
+        {
+          "version": "10.1.0",
+          "buildVersion": "219",
+          "date": "2026-08-16",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v10.1.0/NOOP-ios-unsigned-v10.1.0.ipa",
+          "size": 18590533,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 10.1.0. See the release notes for what changed."
+        },
+        {
+          "version": "10.0.0",
+          "buildVersion": "219",
+          "date": "2026-08-12",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v10.0.0/NOOP-ios-unsigned-v10.0.0.ipa",
+          "size": 18059252,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 10.0.0. See the release notes for what changed."
+        },
+        {
+          "version": "9.3.1",
+          "buildVersion": "213",
+          "date": "2026-08-02",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v9.3.1/NOOP-ios-unsigned-v9.3.1.ipa",
+          "size": 16408661,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 9.3.1. See the release notes for what changed."
+        },
+        {
+          "version": "9.3.0",
+          "buildVersion": "212",
+          "date": "2026-07-31",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v9.3.0/NOOP-ios-unsigned-v9.3.0.ipa",
+          "size": 16174674,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 9.3.0. See the release notes for what changed."
+        },
+        {
+          "version": "9.2.1",
+          "buildVersion": "212",
+          "date": "2026-07-28",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v9.2.1/NOOP-ios-unsigned-v9.2.1.ipa",
+          "size": 16055457,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 9.2.1. See the release notes for what changed."
+        },
+        {
+          "version": "9.2.0",
+          "buildVersion": "211",
+          "date": "2026-07-27",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v9.2.0/NOOP-ios-unsigned-v9.2.0.ipa",
+          "size": 16010908,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 9.2.0. See the release notes for what changed."
+        },
+        {
+          "version": "9.1.0",
+          "buildVersion": "207",
+          "date": "2026-07-22",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v9.1.0/NOOP-ios-unsigned-v9.1.0.ipa",
+          "size": 15009519,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 9.1.0. See the release notes for what changed."
+        },
+        {
+          "version": "9.0.2",
+          "buildVersion": "204",
+          "date": "2026-07-19",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v9.0.2/NOOP-ios-unsigned-v9.0.2.ipa",
+          "size": 14834329,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 9.0.2. See the release notes for what changed."
+        },
+        {
+          "version": "9.0.1",
+          "buildVersion": "203",
+          "date": "2026-07-16",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v9.0.1/NOOP-ios-unsigned-v9.0.1.ipa",
+          "size": 14778405,
+          "minOSVersion": "17.0",
+          "localizedDescription": "NOOP 9.0.1. See the release notes for what changed."
         }
       ]
     },
