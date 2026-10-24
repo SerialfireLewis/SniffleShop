@@ -8,7 +8,7 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | --- | --- | --- | --- |
 | LiveContainer | 3.8.0 | https://github.com/LiveContainer/LiveContainer/releases | Minimum iOS 15.0. Uses the standalone `LiveContainer.ipa`, not `LiveContainer+SideStore.ipa`. |
 | Feather | 2.9.0 | https://github.com/claration/Feather/releases | IPA byte size comes from the GitHub release asset; the project's source file currently carries an older size value. |
-| StikDebug | 3.1.10 | https://github.com/StikDebug/StikDebug/releases | Minimum iOS 17.4. Current official debugger/JIT release; iOS 17.4+. |
+| StikDebug | 3.1.15 | https://github.com/StikDebug/StikDebug/releases | Current official debugger/JIT release; iOS 17.4+. |
 | UTM | 4.7.5 | https://alt.getutm.app | Minimum iOS 14.0. Official UTM source; `UTM.ipa` is the non-jailbroken JIT sideloading build. |
 | iSH | 1.3.2 | https://github.com/ish-app/ish/releases | Minimum iOS 11.0. Tracks the latest stable release rather than rolling automated prereleases. |
 | Yattee | 2.0.0 | https://github.com/yattee/yattee/blob/main/altstore-source.json | Minimum iOS 18.0. Current official iOS beta from the developer-maintained AltSource. |
