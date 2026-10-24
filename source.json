@@ -1415,25 +1415,6 @@
       ]
     },
     {
-      "name": "NeoStation iOS",
-      "bundleIdentifier": "com.neogamelab.neostation",
-      "developerName": "TarbleFR",
-      "subtitle": "Emulation frontend for iPhone and iPad",
-      "localizedDescription": "An independently maintained iOS/iPadOS fork of NeoStation, with embedded Dolphin, ARMSX2, RPCS3, Dusklight and KartPad runtimes alongside RetroArch and MeloNX integration, JIT workflows and mobile-friendly game and session management.",
-      "iconURL": "https://raw.githubusercontent.com/bebound/AltGallery/refs/heads/master/apps/NeoStation/icon.png",
-      "tintColor": "#01E989",
-      "category": "games",
-      "versions": [
-        {
-          "version": "0.0.8",
-          "date": "2026-10-18",
-          "downloadURL": "https://github.com/TarbleFR/RewindBox/releases/download/0.0.8/NeoStation-0.0.8.ipa",
-          "size": 226570105,
-          "minOSVersion": "18.0"
-        }
-      ]
-    },
-    {
       "name": "Novella",
       "bundleIdentifier": "sh.celia.novella",
       "developerName": "CELIA",
@@ -1916,6 +1897,25 @@
           "size": 109731773,
           "minOSVersion": "13.0",
           "sha256": "bfd4628f87ee355ca3b1935b29dadcb61d5b4246478189e927e2e38e519f2b36"
+        }
+      ]
+    },
+    {
+      "name": "Geode",
+      "bundleIdentifier": "com.geode.launcher",
+      "developerName": "Geode SDK Team",
+      "subtitle": "Geometry Dash mod loader and launcher for iOS",
+      "localizedDescription": "Official iOS launcher for Geode, a mod loader for Geometry Dash. Requires the full Geometry Dash game to be installed and an internet connection. Mods and game data are user-supplied; compatibility depends on the iOS version and Geometry Dash build.",
+      "iconURL": "https://raw.githubusercontent.com/geode-sdk/ios-launcher/main/screenshots/thumbnail.png",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.5.5",
+          "date": "2026-09-15",
+          "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.5.5/com.geode.launcher_1.5.5.ipa",
+          "size": 12600000,
+          "minOSVersion": "14.0",
+          "localizedDescription": "Fixes for iOS 27 compatibility, JIT-less mod importing, safe mode and helper updates."
         }
       ]
     }
