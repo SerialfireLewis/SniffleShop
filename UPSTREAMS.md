@@ -83,7 +83,7 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | Winston for Reddit | 1.1.5 | https://github.com/lo-cafe/winston/releases | Upstream-hosted IPA; check release notes for compatibility. |
 | VortX | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 16.0. Emulator/game runtime; performance and JIT needs vary by device. Use with services/content you are authorized to access. |
 | VortX (Apple TV) | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 18.0. |
-| Flycast | 1.0 | https://github.com/flyinghead/flycast/releases | Minimum iOS 26.0. Separate iOS 26 community fork; the older Flyinghead v2.5 source is stale and its IPA URL was excluded. |
+| Flycast | 1.0 | https://github.com/chachillie/Flycast-iOS/releases | Minimum iOS 26.0; separate community fork with its own upstream IPA. The older Flyinghead v2.5 URL was stale and is excluded. |
 
 ## Deliberate exclusions and compatibility notes
 
