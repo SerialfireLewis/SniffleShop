@@ -1584,44 +1584,6 @@
       ]
     },
     {
-      "name": "Provenance",
-      "bundleIdentifier": "org.provenance-emu.provenance",
-      "developerName": "Provenance Emu",
-      "subtitle": "Multi-system emulator frontend for iOS/tvOS",
-      "localizedDescription": "The most complete iOS/tvOS frontend - Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony systems via one app. Supports 3.3.0 with iCloud sync, revamped tvOS UI, video filters. Build config: org.provenance-emu.provenance. Wiki: https://wiki.provenance-emu.com",
-      "iconURL": "https://github.com/Provenance-Emu.png",
-      "tintColor": "2B4C7E",
-      "category": "games",
-      "versions": [
-        {
-          "version": "3.3.0",
-          "date": "2026-03-14",
-          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
-          "size": 1076407494,
-          "minOSVersion": "15.0"
-        }
-      ]
-    },
-    {
-      "name": "PPSSPP",
-      "bundleIdentifier": "org.ppsspp.ppsspp-free",
-      "developerName": "Henrik Rydgard",
-      "subtitle": "PSP emulator (iOS, Android, Desktop)",
-      "localizedDescription": "The premiere PSP emulator - play your PSP ISOs on iOS with Vulkan/Metal, save states, networking and cheats. GPL-2.0+. Bundle ID org.ppsspp.ppsspp-free verified from ios/PPSSPP-Info.plist. 1.20.4 is latest iOS IPA.",
-      "iconURL": "https://github.com/hrydgard.png",
-      "tintColor": "1ABC9C",
-      "category": "games",
-      "versions": [
-        {
-          "version": "1.20.4",
-          "date": "2026-05-16",
-          "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
-          "size": 31124277,
-          "minOSVersion": "12.0"
-        }
-      ]
-    },
-    {
       "name": "PojavLauncher",
       "bundleIdentifier": "net.kdt.pojavlauncher",
       "developerName": "PojavLauncherTeam",
