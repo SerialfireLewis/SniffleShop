@@ -1,6 +1,6 @@
 # Upstream release sources
 
-Last reviewed: **2026-09-10**
+Last reviewed: **2026-10-24**
 
 SniffleShop points to upstream IPA files directly; it does not rehost them. Release metadata is checked against official developer releases or developer-maintained source feeds.
 
@@ -36,3 +36,18 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. Rele
 - Stable releases are preferred when the project has a stable channel; active beta channels are used when that is the project's supported distribution.
 - `appPermissions` is included only when trustworthy current entitlement/privacy metadata is available; it is never guessed.
 - Icons and screenshots are included only from reliable upstream project locations.
+
+| SideStore | 0.6.3 | https://github.com/SideStore/SideStore/releases | Official sideloading and refresh utility. |
+| UTM SE | 4.7.5 | https://github.com/utmapp/UTM/releases | No-JIT UTM variant; slower than the JIT build. |
+| Spotube | 5.1.2 | https://github.com/KRTirtho/spotube/releases | Open-source music client; third-party service compatibility may change. |
+| BHTwitter | 4.4 | https://github.com/BandarHL/BHTwitter/releases | Modified X/Twitter client; not an official X release. |
+| LBox | 1.2 | https://github.com/Lolendor/LBox/releases | LiveContainer companion utility. |
+| Apollo (Patched) | 1.15.11-0.1.0 | https://github.com/ichitaso/ApolloPatcher/releases | Modified legacy Reddit client; API setup may be required. |
+| Cowabunga | 10.3.2 | https://github.com/leminlimez/Cowabunga/releases | OS-version-dependent customization tool; features may be unavailable on newer iOS. |
+| Misaka | 8.2.4 | https://github.com/straight-tamago/misaka/releases | OS-version-dependent customization tool; not a universal jailbreak. |
+| Paperback | 0.8.11-r2 | https://github.com/Paperback-iOS/app/releases | Manga reader; extension/source availability is managed separately. |
+| DebToIPA | 1.1.1 | https://github.com/sourcelocation/DebToIPA/releases | Converts compatible Debian packages to IPA format; compatibility varies. |
+| ModMyIPA | 1.0.2 | https://github.com/powenn/ModMyIPA/releases | Utility for creating duplicate app bundles; older release. |
+| Azula | 1.0.1 | https://github.com/Paisseon/Azula/releases | On-device dylib injection tool; compatibility and signing constraints apply. |
+| AppDB | 1.1.6 | https://github.com/n3d1117/appdb/releases | Third-party appdb client; upstream release is old. |
+| Mirarr | 3.3.2 | https://github.com/mirarr-app/mirarr/releases | Open-source media catalog client; use only with services you are authorized to access. |
