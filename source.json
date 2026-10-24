@@ -1913,7 +1913,7 @@
           "version": "1.5.5",
           "date": "2026-09-15",
           "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.5.5/com.geode.launcher_1.5.5.ipa",
-          "size": 12600000,
+          "size": 13256824,
           "minOSVersion": "14.0",
           "localizedDescription": "Fixes for iOS 27 compatibility, JIT-less mod importing, safe mode and helper updates."
         }
