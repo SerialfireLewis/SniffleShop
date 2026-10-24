@@ -3,7 +3,7 @@
   "identifier": "com.serialfirelewis.sniffleshop",
   "sourceURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json",
   "subtitle": "Curated sideloading tools, emulators, utilities, and open-source iOS apps",
-  "description": "A broad SideStore/AltStore catalog of 79 distinct apps and 100 upstream IPA builds, including emulators, developer tools, utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
+  "description": "A broad SideStore/AltStore catalog of 80 distinct apps and 103 upstream IPA builds, including emulators, developer tools, utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
   "iconURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/SniffleShop-logo.PNG",
   "website": "https://github.com/SerialfireLewis/SniffleShop",
   "tintColor": "#8B5CF6",
@@ -1876,6 +1876,46 @@
           "size": 8290481,
           "minOSVersion": "26.0",
           "localizedDescription": "iOS 26-compatible community fork; see upstream release notes for device compatibility."
+        }
+      ]
+    },
+    {
+      "name": "Nuvio",
+      "bundleIdentifier": "com.nuvio.app",
+      "developerName": "Nuvio Media",
+      "subtitle": "Open-source media player, bring your own sources",
+      "localizedDescription": "Nuvio is a free, open-source media app for your phone, desktop and the TV you already own. Bring your own sources - Nuvio turns them into a library with artwork, ratings, subtitles and your place saved on every screen.",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Nuvio.webp",
+      "tintColor": "#5B5FE8",
+      "category": "photo-video",
+      "versions": [
+        {
+          "version": "0.6.4",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.4-beta/nuvio-0.6.4-full-release.ipa",
+          "size": 67805794,
+          "minOSVersion": "16.1",
+          "sha256": "e7670fdba3adb96f6f8292dd19539fff04d1fbd792fa0fc7b1f602b84367d969"
+        }
+      ]
+    },
+    {
+      "name": "Reynard",
+      "bundleIdentifier": "com.minh-ton.Reynard",
+      "developerName": "Minh Ton",
+      "subtitle": "Gecko-based browser, a real WebKit alternative",
+      "localizedDescription": "Reynard is an experimental Gecko-based web browser for iOS 13 and up, rendering pages with the same engine Firefox uses instead of Safari's WebKit. It is actively developed and published from the project's own GitHub releases.",
+      "iconURL": "https://raynmahbub.github.io/OmniSource/assets/Reynard.webp",
+      "tintColor": "#FB3828",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.18.0",
+          "date": "2026-10-18",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
+          "size": 109731773,
+          "minOSVersion": "13.0",
+          "sha256": "bfd4628f87ee355ca3b1935b29dadcb61d5b4246478189e927e2e38e519f2b36"
         }
       ]
     }
