@@ -2,58 +2,44 @@
 
 Last reviewed: **2026-10-24**
 
-SniffleShop points to upstream IPA files directly; it does not rehost them. The original 34 entries remain documented below. The latest expansion adds 45 entries from AltGallery's maintained GitHub-release catalog, direct developer-maintained feeds, and official emulator releases. The upstream release links below identify the projects; source metadata has been structurally checked, but not every download URL has been live-checked yet.
+SniffleShop points to upstream IPA files directly; it does not rehost them. The catalog now tracks 78 distinct apps and 100 downloadable IPA builds, including real rollback versions from the upstream NOOP and VortX feeds. The table below identifies upstream release pages and compatibility caveats. Source metadata has passed the repository schema CI; every external download URL has not yet been live-checked.
 
 | App | Tracked release | Official upstream | Notes |
 | --- | --- | --- | --- |
-| LiveContainer | 3.8.0 | https://github.com/LiveContainer/LiveContainer/releases | Uses the standalone `LiveContainer.ipa`, not `LiveContainer+SideStore.ipa`. |
+| LiveContainer | 3.8.0 | https://github.com/LiveContainer/LiveContainer/releases | Minimum iOS 15.0. Uses the standalone `LiveContainer.ipa`, not `LiveContainer+SideStore.ipa`. |
 | Feather | 2.9.0 | https://github.com/claration/Feather/releases | IPA byte size comes from the GitHub release asset; the project's source file currently carries an older size value. |
-| StikDebug | 3.1.10 | https://github.com/StikDebug/StikDebug/releases | Current official debugger/JIT release; iOS 17.4+. |
-| UTM | 4.7.5 | https://alt.getutm.app | Official UTM source; `UTM.ipa` is the non-jailbroken JIT sideloading build. |
-| iSH | 1.3.2 | https://github.com/ish-app/ish/releases | Tracks the latest stable release rather than rolling automated prereleases. |
-| Yattee | 2.0.0 build 270 | https://github.com/yattee/yattee/blob/main/altstore-source.json | Current official iOS beta from the developer-maintained AltSource. |
-| iTorrent | 2.2.0 build 1 | https://github.com/XITRIX/iTorrent/releases | Official GitHub IPA; project documentation explicitly supports SideStore/AltStore sideloading. |
-| Angel Aura Amethyst | 1.0.9212a18 | https://alt.crystall1ne.dev | Current official AngelAuraMC build/source; active successor to PojavLauncher. |
+| StikDebug | 3.1.10 | https://github.com/StikDebug/StikDebug/releases | Minimum iOS 17.4. Current official debugger/JIT release; iOS 17.4+. |
+| UTM | 4.7.5 | https://alt.getutm.app | Minimum iOS 14.0. Official UTM source; `UTM.ipa` is the non-jailbroken JIT sideloading build. |
+| iSH | 1.3.2 | https://github.com/ish-app/ish/releases | Minimum iOS 11.0. Tracks the latest stable release rather than rolling automated prereleases. |
+| Yattee | 2.0.0 | https://github.com/yattee/yattee/blob/main/altstore-source.json | Minimum iOS 18.0. Current official iOS beta from the developer-maintained AltSource. |
+| iTorrent | 2.2.0 | https://github.com/XITRIX/iTorrent/releases | Minimum iOS 16.0. Official GitHub IPA; project documentation explicitly supports SideStore/AltStore sideloading. |
+| Angel Aura Amethyst | 1.0.9212a18 | https://alt.crystall1ne.dev | Minimum iOS 14.0. Current official AngelAuraMC build/source; active successor to PojavLauncher. |
 | Provenance | 3.3.0 | https://provenance-emu.com/apps.json | Tracks the current stable release from the official source. |
-| RetroArch | 1.22.2 | https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/ | Official Libretro stable iOS sideload IPA; current upstream release is 1.22.2. |
-| Pocket8 | 1.6.2 | https://github.com/jevonlipsey/pico-ios/releases | Official iOS IPA; supports PICO-8 cartridges including Celeste Classic. |
-
-## Deliberate exclusions
-
-**PojavLauncher** is not included. Its current upstream source marks it discontinued, says it does not work on the latest iOS, and directs users to Amethyst instead.
-
-**Jitterbug/Jitterbug Lite** is not included. The upstream repository is archived and its latest release is from 2022; StikDebug is the actively maintained JIT tool tracked here.
-
-**DolphiniOS** was not added even though an official current prerelease IPA exists, because its non-jailbroken project configuration uses a replace-at-build organization identifier rather than one fixed bundle identifier. SniffleShop will not guess a bundle ID.
-
-**Flycast** is not currently included. Its official iOS AltSource still advertises v2.5, but that AltSource's IPA URL now returns 404 and the upstream GitHub v2.5 release no longer contains an iOS IPA asset.
-
-## Metadata rules
-
-- `bundleIdentifier` must match the actual app identifier and is case-sensitive.
-- `versions[0]` is the newest compatible version presented by the source.
-- `size` is the IPA size in bytes, preferably from GitHub release asset metadata or the developer's official source.
-- Stable releases are preferred when the project has a stable channel; active beta channels are used when that is the project's supported distribution.
-- `appPermissions` is included only when trustworthy current entitlement/privacy metadata is available; it is never guessed.
-- Icons and screenshots are included only from reliable upstream project locations.
-
-| SideStore | 0.6.3 | https://github.com/SideStore/SideStore/releases | Official sideloading and refresh utility. |
-| UTM SE | 4.7.5 | https://github.com/utmapp/UTM/releases | No-JIT UTM variant; slower than the JIT build. |
-| Spotube | 5.1.2 | https://github.com/KRTirtho/spotube/releases | Open-source music client; third-party service compatibility may change. |
-| BHTwitter | 4.4 | https://github.com/BandarHL/BHTwitter/releases | Modified X/Twitter client; not an official X release. |
-| LBox | 1.2 | https://github.com/Lolendor/LBox/releases | LiveContainer companion utility. |
-| Apollo (Patched) | 1.15.11-0.1.0 | https://github.com/ichitaso/ApolloPatcher/releases | Modified legacy Reddit client; API setup may be required. |
-| Cowabunga | 10.3.2 | https://github.com/leminlimez/Cowabunga/releases | OS-version-dependent customization tool; features may be unavailable on newer iOS. |
-| Misaka | 8.2.4 | https://github.com/straight-tamago/misaka/releases | OS-version-dependent customization tool; not a universal jailbreak. |
-| Paperback | 0.8.11-r2 | https://github.com/Paperback-iOS/app/releases | Manga reader; extension/source availability is managed separately. |
-| DebToIPA | 1.1.1 | https://github.com/sourcelocation/DebToIPA/releases | Converts compatible Debian packages to IPA format; compatibility varies. |
-| ModMyIPA | 1.0.2 | https://github.com/powenn/ModMyIPA/releases | Utility for creating duplicate app bundles; older release. |
-| Azula | 1.0.1 | https://github.com/Paisseon/Azula/releases | On-device dylib injection tool; compatibility and signing constraints apply. |
-| AppDB | 1.1.6 | https://github.com/n3d1117/appdb/releases | Third-party appdb client; upstream release is old. |
-| Mirarr | 3.3.2 | https://github.com/mirarr-app/mirarr/releases | Open-source media catalog client; use only with services you are authorized to access. |
-
-## Expanded catalog additions
-
+| RetroArch | 1.22.2 | https://buildbot.libretro.com/stable/1.22.2/apple/ios-arm64/ | Minimum iOS 12.0. Official Libretro stable iOS sideload IPA; current upstream release is 1.22.2. |
+| osu! | 1.0 | https://github.com/ppy/osu/releases | Minimum iOS 13.4. Upstream-hosted IPA; review release notes and compatibility before installing. |
+| Aidoku | 0.9 | https://github.com/Aidoku/Aidoku/releases | Minimum iOS 15.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
+| NOOP | 12.0.0 | https://github.com/ryanbr/noop/releases | Minimum iOS 17.0. Official current build; 20 upstream versions retained for rollback (12.0.0 through 8.6.2). |
+| Nyora | 2.7.3 | https://github.com/Nyora-Manga/nyora-ios/releases | Minimum iOS 18.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
+| Stremio | 2.0.7 | https://dl.strem.io/apple/2.0.7b22/ios/stremio_iOS.ipa | Minimum iOS 13.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
+| Sable | 1.21.0 | https://github.com/SableClient/Sable/releases | Minimum iOS 16.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
+| PPSSPP | 1.20.4 | https://github.com/hrydgard/ppsspp/releases | Minimum iOS 13.0. Upstream-hosted IPA; review release notes and compatibility before installing. |
+| Delta | 1.6 | https://github.com/rileytestut/Delta/releases | Upstream-hosted IPA; review release notes and compatibility before installing. |
+| MAME4iOS | 2022.5 | https://github.com/yoshisuga/MAME4iOS/releases | Minimum iOS 13.4. Upstream-hosted IPA; review release notes and compatibility before installing. |
+| Pocket8 | 1.6.2 | https://github.com/jevonlipsey/pico-ios/releases | Minimum iOS 15.0. Official iOS IPA; supports PICO-8 cartridges including Celeste Classic. |
+| SideStore | 0.6.3 | https://github.com/SideStore/SideStore/releases | Minimum iOS 14.0. Official sideloading and refresh utility. |
+| UTM SE | 4.7.5 | https://github.com/utmapp/UTM/releases | Minimum iOS 14.0. No-JIT UTM variant; slower than the JIT build. |
+| Spotube | 5.1.2 | https://github.com/KRTirtho/spotube/releases | Minimum iOS 14.0. Open-source music client; third-party service compatibility may change. |
+| BHTwitter | 4.4 | https://github.com/BandarHL/BHTwitter/releases | Minimum iOS 14.0. Modified X/Twitter client; not an official X release. |
+| LBox | 1.2 | https://github.com/Lolendor/LBox/releases | Minimum iOS 15.0. LiveContainer companion utility. |
+| Apollo (Patched) | 1.15.11-0.1.0 | https://github.com/ichitaso/ApolloPatcher/releases | Minimum iOS 14.0. Modified legacy Reddit client; API setup may be required. |
+| Cowabunga | 10.3.2 | https://github.com/leminlimez/Cowabunga/releases | Minimum iOS 14.0. OS-version-dependent customization tool; features may be unavailable on newer iOS. |
+| Misaka | 8.2.4 | https://github.com/straight-tamago/misaka/releases | Minimum iOS 15.0. OS-version-dependent customization tool; not a universal jailbreak. |
+| Paperback | 0.8.11-r2 | https://github.com/Paperback-iOS/app/releases | Minimum iOS 15.0. Manga reader; extension/source availability is managed separately. |
+| DebToIPA | 1.1.1 | https://github.com/sourcelocation/DebToIPA/releases | Minimum iOS 13.0. Converts compatible Debian packages to IPA format; compatibility varies. |
+| ModMyIPA | 1.0.2 | https://github.com/powenn/ModMyIPA/releases | Minimum iOS 13.0. Utility for creating duplicate app bundles; older release. |
+| Azula | 1.0.1 | https://github.com/Paisseon/Azula/releases | Minimum iOS 14.0. On-device dylib injection tool; compatibility and signing constraints apply. |
+| AppDB | 1.1.6 | https://github.com/n3d1117/appdb/releases | Minimum iOS 12.0. Third-party appdb client; upstream release is old. |
+| Mirarr | 3.3.2 | https://github.com/mirarr-app/mirarr/releases | Minimum iOS 13.0. Open-source media catalog client; use only with services you are authorized to access. |
 | AirCard-iOS | 1.3.2 | https://github.com/Mak5er/AirCard-iOS/releases | Minimum iOS 27.0. |
 | AniBaka | 5.2.3 | https://github.com/AniBakaBaka/AniBaka/releases | Minimum iOS 13.0. |
 | AnimeFlow | 2.6.4 | https://github.com/openAnimeFlow/AnimeFlow/releases | Minimum iOS 13.0. |
@@ -61,7 +47,7 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | ARMSX2 | 2.6.0-nightly.20261023.1332 | https://github.com/ARMSX2/ARMSX2/releases | Minimum iOS 17.0. Emulator/game runtime; performance and JIT needs vary by device. |
 | BCD | 0.1.600 | https://github.com/thebcd69/bcd-games/releases | Minimum iOS 18.0. |
 | Doer | 1.8.6 | https://github.com/moliango/doer/releases | Minimum iOS 15.0. |
-| DolphiniOS | 5.0.0b6 | https://github.com/OatmealDome/dolphin-ios/releases | Minimum iOS 14.0. Emulator/game runtime; performance and JIT needs vary by device. |
+| DolphiniOS | 5.0.0b6 | https://github.com/OatmealDome/dolphin-ios/releases | Minimum iOS 14.0. Non-jailbroken prerelease; bundle identifier follows the maintained AltGallery feed and has not been independently extracted from the IPA. |
 | DukeX | 1.0.2 | https://github.com/MaftyManicEMU/DukeX/releases | Minimum iOS 16.0. |
 | EhPanda | 2.8.1 | https://github.com/EhPanda-Team/EhPanda/releases | Minimum iOS 26.0. |
 | Fathom | 1.0.0 | https://github.com/Leviidev/Fathom/releases | Minimum iOS 18.0. |
@@ -93,9 +79,25 @@ SniffleShop points to upstream IPA files directly; it does not rehost them. The 
 | ZhihuMinusMinus | 0.9.5 | https://github.com/huamurui/zhihu-minus-minus/releases | Minimum iOS 15.1. |
 | Empo | 0.8.1 | https://github.com/mateo-m/empo-app/releases | Minimum iOS 26.0. |
 | Artemis | 3.0 | https://github.com/Auties00/Artemis/releases | Minimum iOS 17.0. |
-| PojavLauncher | 2.2 | https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases | Minimum iOS 14.0. Emulator/game runtime; performance and JIT needs vary by device. |
-| Flycast | v2.5 | https://github.com/flyinghead/flycast/releases | Emulator/game runtime; performance and JIT needs vary by device. |
 | AnymeX | 3.1.8 | https://github.com/RyanYuuki/AnymeX/releases | Upstream-hosted IPA; check release notes for compatibility. |
 | Winston for Reddit | 1.1.5 | https://github.com/lo-cafe/winston/releases | Upstream-hosted IPA; check release notes for compatibility. |
 | VortX | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 16.0. Emulator/game runtime; performance and JIT needs vary by device. Use with services/content you are authorized to access. |
 | VortX (Apple TV) | 0.5.5 | https://github.com/VortXTV/VortX/releases | Minimum iOS 18.0. |
+| Flycast | 1.0 | https://github.com/flyinghead/flycast/releases | Minimum iOS 26.0. Separate iOS 26 community fork; the older Flyinghead v2.5 source is stale and its IPA URL was excluded. |
+
+## Deliberate exclusions and compatibility notes
+
+**PojavLauncher** remains excluded. Its upstream project marks it discontinued, says it does not work on the latest iOS, and directs users to Amethyst instead.
+
+**Jitterbug/Jitterbug Lite** remains excluded. The upstream repository is archived and its latest release is from 2022; StikDebug is the actively maintained JIT tool tracked here.
+
+The older **Flyinghead Flycast v2.5** feed is excluded because its IPA URL is stale. SniffleShop instead tracks a separate **Flycast iOS 26** community fork with its own release artifact.
+
+## Metadata rules
+
+- `bundleIdentifier` must match the actual app identifier and is case-sensitive.
+- `versions[0]` is the newest compatible version presented by the source.
+- `size` is the IPA size in bytes, preferably from GitHub release asset metadata or the developer's official source.
+- Stable releases are preferred when the project has a stable channel; active beta channels are used when that is the project's supported distribution.
+- `appPermissions` is included only when trustworthy current entitlement/privacy metadata is available; it is never guessed.
+- Icons and screenshots are included only from reliable upstream project locations.
