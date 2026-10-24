@@ -20,9 +20,9 @@ sidestore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2FSerialfireLewis
 
 ## Catalog
 
-**79 distinct apps and 100 downloadable IPA builds** are currently tracked. Multiple versions are retained for NOOP and VortX to provide real upstream rollback options rather than fake extra app entries.
+**78 distinct apps and 100 downloadable IPA builds** are currently tracked. Multiple versions are retained for NOOP and VortX to provide real upstream rollback options rather than fake extra app entries.
 
-Current tracked apps (79 entries; 100 downloadable IPA builds including rollback versions):
+Current tracked apps (78 entries; 100 downloadable IPA builds including rollback versions):
 
 - **LiveContainer** — run guest iOS apps inside a container; the listed standalone IPA is intended for SideStore.
 - **Feather** — on-device signing and IPA/source management.
@@ -80,7 +80,7 @@ SideStore is compatible with AltStore Sources. SniffleShop uses current AltSourc
 
 ### Expanded catalog: additional apps
 
-These 45 additions were imported from maintained developer releases and compatible AltStore/SideStore feeds. Direct download URLs remain upstream-hosted; this repository does not rehost IPA binaries.
+These 44 additions were imported from maintained developer releases and compatible AltStore/SideStore feeds. Direct download URLs remain upstream-hosted; this repository does not rehost IPA binaries.
 
 - **AirCard-iOS 1.3.2** — Apple Wallet card skins, passcode themes and wallpapers (minimum iOS 27.0).
 - **AniBaka 5.2.3** — 跨平台番剧聚合、媒体播放与弹幕客户端 (minimum iOS 13.0).
@@ -121,12 +121,11 @@ These 45 additions were imported from maintained developer releases and compatib
 - **ZhihuMinusMinus 0.9.5** — 轻量、纯净的第三方知乎客户端 (minimum iOS 15.1).
 - **Empo 0.8.1** — Run RPG Maker and PSDK games on iPhone and iPad. (minimum iOS 26.0).
 - **Artemis 3.0** — Alternative client for HIDIVE (minimum iOS 17.0).
-- **PojavLauncher 2.2** — Minecraft: Java Edition on iOS (Swift/ObjC + Java) (minimum iOS 14.0).
-- **Flycast v2.5** — Dreamcast, Naomi and Atomiswave emulator..
 - **AnymeX 3.1.8** — Multiservice tracking client.
 - **Winston for Reddit 1.1.5** — Winston, a beautiful and native Reddit client for iOS.
 - **VortX 0.5.5** — Stream movies and shows on iPhone and iPad. (minimum iOS 16.0).
 - **VortX (Apple TV) 0.5.5** — Stream movies and shows on Apple TV. (minimum iOS 18.0).
+- **Flycast 1.0** — Dreamcast, Naomi and Atomiswave emulator. (minimum iOS 26.0).
 
 Some newer entries require iOS 26 or 27, and some emulators or game runtimes need JIT, user-supplied game files, or compatible source content. Check each entry's version metadata before installing. Modified clients are identified as such in their descriptions; an upstream release link does not imply endorsement by the original service.
 
