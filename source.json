@@ -75,12 +75,12 @@
       "tintColor": "#00BFFF",
       "versions": [
         {
-          "version": "3.1.10",
-          "date": "2026-08-27T04:07:04Z",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
-          "size": 12824047,
+          "version": "3.1.15",
+          "date": "2026-10-15",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
+          "size": 13543234,
           "minOSVersion": "17.4",
-          "localizedDescription": "Current 3.1.10 release of StikDebug from the official project."
+          "localizedDescription": "Attempt to fix ServiceNotFound errors, add debugging."
         }
       ],
       "category": "developer"
@@ -1427,7 +1427,7 @@
         {
           "version": "0.0.8",
           "date": "2026-10-18",
-          "downloadURL": "https://github.com/TarbleFR/RewindBox/releases/download/0.0.8/RewindBox-0.0.8.ipa",
+          "downloadURL": "https://github.com/TarbleFR/RewindBox/releases/download/0.0.8/NeoStation-0.0.8.ipa",
           "size": 226570105,
           "minOSVersion": "18.0"
         }
@@ -1873,7 +1873,7 @@
           "version": "1.0",
           "date": "2025-01-21",
           "downloadURL": "https://github.com/chachillie/Flycast-iOS/releases/download/v1.0-beta.1/FlycastiOS.ipa",
-          "size": 8703180,
+          "size": 8290481,
           "minOSVersion": "26.0",
           "localizedDescription": "iOS 26-compatible community fork; see upstream release notes for device compatibility."
         }
