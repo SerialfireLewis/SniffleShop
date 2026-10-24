@@ -104,7 +104,6 @@ These 46 additions were imported from maintained developer releases and compatib
 - **MiniWatts 1.5.1** — Battery, charging and thermal instrument (minimum iOS 17.0).
 - **MoviePilotLite 1.2.6** — MoviePilot 移动端，基于 Flutter 实现 (minimum iOS 15.0).
 - **Musly 2.0.3** — Free Navidrome client & Subsonic music player (minimum iOS 15.0).
-- **NeoStation iOS 0.0.8** — Emulation frontend for iPhone and iPad (minimum iOS 18.0).
 - **Novella 2.6.0** — 轻书架第三方客户端 (minimum iOS 16.4).
 - **Opaline 1.12.0** — YouTube client for iOS 12+ (minimum iOS 12.0).
 - **Orchard 0.2** — Apple Silicon macOS Ventura running inside an iPhone app (minimum iOS 16.0).
@@ -128,6 +127,7 @@ These 46 additions were imported from maintained developer releases and compatib
 - **Flycast 1.0** — Dreamcast, Naomi and Atomiswave emulator. (minimum iOS 26.0).
 - **Nuvio 0.6.4** — Open-source media player, bring your own sources (minimum iOS 16.1).
 - **Reynard 0.18.0** — Gecko-based browser, a real WebKit alternative (minimum iOS 13.0).
+- **Geode 1.5.5** — Geometry Dash mod loader and launcher for iOS (minimum iOS 14.0).
 
 Some newer entries require iOS 26 or 27, and some emulators or game runtimes need JIT, user-supplied game files, or compatible source content. Check each entry's version metadata before installing. Modified clients are identified as such in their descriptions; an upstream release link does not imply endorsement by the original service.
 
