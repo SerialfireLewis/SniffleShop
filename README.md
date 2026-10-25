@@ -131,6 +131,18 @@ These 46 additions were imported from maintained developer releases and compatib
 
 Some newer entries require iOS 26 or 27, and some emulators or game runtimes need JIT, user-supplied game files, or compatible source content. Check each entry's version metadata before installing. Modified clients are identified as such in their descriptions; an upstream release link does not imply endorsement by the original service.
 
+## ROM toolkit and LiveContainer companion tools
+
+The AltSource contains installable IPA entries. For tools that are better delivered as browser apps or through the App Store, see the separate [ROM Toolkit guide](ROM_TOOLS.md). It includes a proper 7z extractor, ROM patchers, save converters, checksum/identification tools, and a LiveContainer-focused workflow.
+
+**Quick picks:**
+- [7zen](https://get7zen.app/) — native iPhone/iPad archive app for 7z, RAR, ZIP, TAR and other formats; offline and no ads according to its developer. It is an App Store app, not an IPA in this source.
+- [rom-weaver](https://rom-weaver.com/apply-patches) — best all-round ROM workflow: works with 7z/ZIP/RAR archives, chains patches, checks hashes, and can create 7z output. Designed for supported mobile browsers; files are processed locally.
+- [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) — patch and create IPS/UPS/APS/BPS/RUP/PPF/xdelta patches, check ROM hashes, and automatically unpack supported patch archives.
+- [PatchVault](https://patchvault.app/) — quick IPS/BPS/UPS/xdelta patching and save conversion for common emulator formats.
+
+These companion tools are deliberately documented separately rather than inserted into `source.json`: browser sites and App Store-only apps are not installable IPA assets. That keeps the SideStore source valid and avoids fake download entries.
+
 ## Repository layout
 
 ```text
