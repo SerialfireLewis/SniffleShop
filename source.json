@@ -3,7 +3,7 @@
   "identifier": "com.serialfirelewis.sniffleshop",
   "sourceURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json",
   "subtitle": "Curated sideloading tools, emulators, utilities, and open-source iOS apps",
-  "description": "A broad SideStore/AltStore catalog of 82 distinct apps and upstream IPA builds, including emulators, developer tools, file managers, archive utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
+  "description": "A broad SideStore/AltStore catalog of 84 distinct apps and upstream IPA builds, including emulators, developer tools, file managers, archive extractors, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
   "iconURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/SniffleShop-logo.PNG",
   "website": "https://github.com/SerialfireLewis/SniffleShop",
   "tintColor": "#8B5CF6",
@@ -13,7 +13,9 @@
     "com.stik.stikdebug",
     "org.ppsspp.ppsspp",
     "com.jevonlipsey.pocket8",
-    "com.SideStore.SideStore"
+    "com.SideStore.SideStore",
+    "wiki.qaq.fila",
+    "com.ipaside.escapeos"
   ],
   "apps": [
     {
@@ -1958,6 +1960,50 @@
           "size": 2879453,
           "minOSVersion": "18.0",
           "localizedDescription": "Build 27. Fixes incoming document imports and refreshes the Files tab after import."
+        }
+      ]
+    },
+    {
+      "name": "Filos",
+      "bundleIdentifier": "com.jbdotparty.filos",
+      "developerName": "jailbreak.party",
+      "subtitle": "Open-source developer-focused file manager",
+      "localizedDescription": "Filos is a lightweight Swift file manager for iPhone and iPad with basic file and folder operations, a text editor, a property-list editor, and a permissions viewer. It is designed for developers and supports iOS 15+. Important: the standard sideloaded IPA does not use exploits or sandbox escapes, so it only manages files available to its app sandbox; it does not provide unrestricted iOS filesystem access. It has no FTP client or package manager.",
+      "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/Filos/main/PreviewIcon.png",
+      "tintColor": "#CF7D46",
+      "category": "utilities",
+      "beta": true,
+      "versions": [
+        {
+          "version": "0.1",
+          "date": "2026-10-03T17:02:00Z",
+          "downloadURL": "https://github.com/jailbreakdotparty/Filos/releases/download/0.1/Filos_0.1_release.ipa",
+          "size": 5567894,
+          "minOSVersion": "15.0",
+          "sha256": "daf30eb4e4e78dd43fec5ba5c132d864e0058c709adff2b2d5d2b1e4175244a2",
+          "localizedDescription": "First official jailed IPA release. Basic sandboxed file management; the separate TrollStore and jailbreak packages have different entitlements."
+        }
+      ]
+    },
+    {
+      "name": "EscapeOS",
+      "bundleIdentifier": "com.ipaside.escapeos",
+      "developerName": "pwnapplehat",
+      "subtitle": "App-data file manager with 7-Zip extraction",
+      "localizedDescription": "EscapeOS is an on-device file browser and backup/restore utility for sideloaded iOS apps. It can browse, search, favorite, edit, copy, move, delete, back up, and restore app Data containers, and extract 7z (including password-protected archives), ZIP, TAR, GZIP, BZIP2, XZ, LZ4, LZMA, and DEB files. Setup requires LocalDevVPN and a pairing file placed with iPASide. Compatibility warning: the IPA installs on iOS 18+, but its cross-app container-browsing feature relies on bad_query and is supported only on iOS 26.0–26.6.1 and iOS 27.0 beta 4; later 26.x and 27.x releases are unsupported. It does not access Keychain, other apps' App Groups, or the full system filesystem.",
+      "iconURL": "https://raw.githubusercontent.com/pwnapplehat/EscapeOS/main/Resources/AppIcon60x60%403x.png",
+      "tintColor": "#4C8BF5",
+      "category": "utilities",
+      "beta": true,
+      "versions": [
+        {
+          "version": "0.2.1",
+          "date": "2026-10-29T09:51:15Z",
+          "downloadURL": "https://github.com/pwnapplehat/EscapeOS/releases/download/v0.2.1/EscapeOS-0.2.1.ipa",
+          "size": 7654296,
+          "minOSVersion": "18.0",
+          "sha256": "c2b7576d8a3054296a28683806314ea8001ac11c9f1ff0c4b86315261e74b578",
+          "localizedDescription": "Improves large app-data backups and restores, removes prior file-count and archive-size limits for backup/restore, adds ZIP64 support where needed, and streams backup writes to reduce memory use."
         }
       ]
     }
