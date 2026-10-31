@@ -3,7 +3,7 @@
   "identifier": "com.serialfirelewis.sniffleshop",
   "sourceURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/source.json",
   "subtitle": "Curated sideloading tools, emulators, utilities, and open-source iOS apps",
-  "description": "A broad SideStore/AltStore catalog of 80 distinct apps and 102 upstream IPA builds, including emulators, developer tools, utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
+  "description": "A broad SideStore/AltStore catalog of 82 distinct apps and upstream IPA builds, including emulators, developer tools, file managers, archive utilities, media apps, manga readers, customization tools, and selected modified apps. Downloads point to upstream project releases; compatibility and modification status are disclosed per app.",
   "iconURL": "https://raw.githubusercontent.com/SerialfireLewis/SniffleShop/main/assets/SniffleShop-logo.PNG",
   "website": "https://github.com/SerialfireLewis/SniffleShop",
   "tintColor": "#8B5CF6",
@@ -1916,6 +1916,48 @@
           "size": 13256824,
           "minOSVersion": "14.0",
           "localizedDescription": "Fixes for iOS 27 compatibility, JIT-less mod importing, safe mode and helper updates."
+        }
+      ]
+    },
+    {
+      "name": "Fila",
+      "bundleIdentifier": "wiki.qaq.fila",
+      "developerName": "OwnGoal Studio",
+      "subtitle": "File manager with 7-Zip archive extraction",
+      "localizedDescription": "Fila is a powerful iPhone and iPad file manager with tabs, favorites, trash, file search, SMB network shares, a built-in viewer/editor, file sharing, checksums, and Shortcuts actions. It can browse and extract 7z, ZIP, TAR, RAR, ISO, CAB, and other archives; 7z and RAR are read-only (you can extract them, but not create them). Important: this standard sideloaded IPA is sandboxed and can access Fila's own files, files you import, and network shares; it does not provide jailbreak/root filesystem access.",
+      "iconURL": "https://owngoal-dev.github.io/Fila/icon.png",
+      "tintColor": "#2788D8",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.8.3",
+          "date": "2026-10-29T12:39:56Z",
+          "downloadURL": "https://github.com/owngoal-dev/Fila/releases/download/v0.8.3/Fila_0.8.3.ipa",
+          "size": 20942011,
+          "minOSVersion": "15.0",
+          "sha256": "19ea135bc706b97cc3652bbe50631201f5126131dca945bf96f3200cd590d253",
+          "localizedDescription": "Official sideloadable IPA. Adds iPhone Duo layout refinements and icon-only button accessibility labels. Includes sandboxed file management, network shares, and archive extraction."
+        }
+      ]
+    },
+    {
+      "name": "FileManager",
+      "bundleIdentifier": "com.xsxs18.FileManager",
+      "developerName": "xsxs18",
+      "subtitle": "Secure local file manager with encrypted ZIPs",
+      "localizedDescription": "A local, sideloaded iOS file manager focused on privacy and file protection. Browse, import, create, edit, rename, move, and share files; hide folders, lock folders behind Face ID/passcode, use a separate hidden vault, create AES-256 encrypted ZIP archives, and password-protect PDFs. Runs on-device without an account or backend.",
+      "iconURL": "https://raw.githubusercontent.com/xsxs18-dev/FileManager/main/FileManager/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#4CC2FF",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.3.3",
+          "buildVersion": "27",
+          "date": "2026-10-28",
+          "downloadURL": "https://github.com/xsxs18-dev/FileManager/releases/download/build-27/FileManager-unsigned.ipa",
+          "size": 2879453,
+          "minOSVersion": "18.0",
+          "localizedDescription": "Build 27. Fixes incoming document imports and refreshes the Files tab after import."
         }
       ]
     }
