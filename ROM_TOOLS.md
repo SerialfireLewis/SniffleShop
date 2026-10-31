@@ -4,9 +4,10 @@ A practical companion list for working with legally obtained ROM dumps, patch fi
 
 ## 1. Extract 7z and other archives
 
-### [7zen](https://get7zen.app/) — easiest native iOS/iPadOS extractor
+### [7zen](https://get7zen.app/) — native 7-Zip (.7z) extractor for iPhone and iPad
 
-- Opens and extracts `.7z`, `.rar`, `.zip`, `.tar`, `.tar.gz`, `.tar.bz2`, `.tar.xz`, `.gz`, `.bz2`, `.xz`, and `.lz4`.
+- Opens and extracts 7-Zip `.7z` archives plus `.rar`, `.zip`, `.tar`, `.tar.gz`, `.tar.bz2`, `.tar.xz`, `.gz`, `.bz2`, `.xz`, and `.lz4` files.
+- Lets you inspect archive contents, preview supported files, and extract everything or selected files directly into Files.
 - Browse archive contents and preview files before extracting; extract everything or only selected files.
 - The developer says it works offline, has no ads/tracking, and requires iOS/iPadOS 16+.
 - **Distribution:** App Store, not a sideloadable IPA. The official website links to the App Store.
