@@ -19,7 +19,42 @@ A practical companion list for working with legally obtained ROM dumps, patch fi
 - Runs in supported mobile browsers and can work offline after caching the app and the data needed for the task.
 - **Best use:** a one-stop ROM workflow in Safari when you don't want to extract a patch archive manually first.
 
-## 2. Patch ROMs
+## 2. File managers for iPhone and iPad
+
+These are companion App Store apps, not sideloadable IPA entries. They are listed here rather than in `source.json` so SideStore does not show fake IPA downloads.
+
+### [Apple Files](https://support.apple.com/guide/iphone/find-files-iphf0b6b5b5/ios) — built in
+
+- The default local file browser for On My iPad/iPhone, iCloud Drive, supported external drives, and connected file providers.
+- Best first stop for managing downloads and moving files between apps.
+
+### [Documents by Readdle](https://apps.apple.com/us/app/documents-file-manager/id364901807) — general-purpose file workspace
+
+- Local folders, downloads, cloud connections, document/PDF tools, media playback, and ZIP/RAR extraction.
+- Good all-rounder when you want downloads, documents, and archives in one app.
+- Free download with optional in-app purchases.
+
+### [FE File Explorer](https://apps.apple.com/us/app/fe-file-explorer/id499470113?platform=ipad) — network shares
+
+- Connects to SMB/CIFS, WebDAV, FTP, SFTP, and popular cloud storage.
+- Browse, copy, move, rename, delete, stream, and transfer files between an iPad and computers/NAS devices.
+- Paid App Store app.
+
+### [Owlfiles](https://apps.apple.com/us/app/owlfiles-file-manager/id510282524?platform=ipad) — broad NAS and cloud support
+
+- Supports SMB, NFS, WebDAV, FTP, SFTP, S3-compatible storage, and cloud services.
+- Includes file transfer, media/document viewers, and multiple iPad windows.
+- Free download with optional Pro features.
+
+### [FileBrowserGO](https://apps.apple.com/us/app/filebrowsergo-file-manager/id335493278?platform=ipad) — network browsing and sync
+
+- Connects to computers, network drives, and cloud storage.
+- Supports multi-tab browsing, file transfers, ZIP/unZIP, folder sync, and backups.
+- Free download with in-app purchases.
+
+**Quick recommendation:** start with Apple Files for local storage, Documents for everyday file work, and Owlfiles or FE File Explorer if you regularly browse a PC or NAS over the network.
+
+## 3. Patch ROMs
 
 ### [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/)
 
@@ -37,7 +72,7 @@ A practical companion list for working with legally obtained ROM dumps, patch fi
 
 Use this when the patch is itself inside a `.7z`, `.rar`, or `.zip`, when several patches must be applied in sequence, or when you want a repeatable saved patch recipe. It supports many more formats than the quick patchers; see its own format/feature documentation for exact support.
 
-## 3. ROM identification, checksums, and preservation
+## 4. ROM identification, checksums, and preservation
 
 ### [rom-weaver](https://rom-weaver.com/)
 
@@ -51,7 +86,7 @@ A reference library for ROM-hacking utilities, patch documentation, and project 
 
 Reference databases for identifying and verifying cartridge-based and optical-disc dumps. A matching checksum helps establish that your dump matches a known release; it does not itself grant permission to download or distribute copyrighted game files.
 
-## 4. Advanced format conversion
+## 5. Advanced format conversion
 
 ### [Final ROM source/releases](https://github.com/Yasome/FinalRom)
 
@@ -61,7 +96,7 @@ An offline multi-platform ROM utility project covering patching, hashing, CHD co
 
 A self-hostable web UI for specialized game-image conversions, including CHD, RVZ/WIA, NKit, 3DS, Switch, and handheld-ROM archive workflows. It is aimed at a server/desktop environment, not a lightweight iPad-native app. Because it processes large game files, prefer a trusted self-hosted instance rather than uploading files to an unknown public server.
 
-## 5. Suggested LiveContainer workflow
+## 6. Suggested LiveContainer workflow
 
 LiveContainer runs compatible iOS apps inside its own environment; it is **not** an emulator and does not replace the ROM patching/extraction tools above. Use it to keep compatible emulator and utility apps organized, while Safari handles the browser-based tools.
 
